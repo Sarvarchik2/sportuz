@@ -1,0 +1,862 @@
+{
+    "6": [
+        {
+            "id": 80,
+            "name": "Kegeyli"
+        },
+        {
+            "id": 81,
+            "name": "Qo`ng`irot"
+        },
+        {
+            "id": 82,
+            "name": "Mo‘ynaq"
+        },
+        {
+            "id": 83,
+            "name": "Nukus t"
+        },
+        {
+            "id": 84,
+            "name": "Taxtakupir"
+        },
+        {
+            "id": 85,
+            "name": "To‘rtko‘l"
+        },
+        {
+            "id": 86,
+            "name": "Ho`jayli"
+        },
+        {
+            "id": 87,
+            "name": "Chimboy"
+        },
+        {
+            "id": 88,
+            "name": "Shumanay"
+        },
+        {
+            "id": 89,
+            "name": "Ellikqal`a"
+        },
+        {
+            "id": 90,
+            "name": "Nukus shahar"
+        },
+        {
+            "id": 76,
+            "name": "Amudaryo"
+        },
+        {
+            "id": 77,
+            "name": "Beruniy"
+        },
+        {
+            "id": 78,
+            "name": "Qonlikul"
+        },
+        {
+            "id": 79,
+            "name": "Karauzyak"
+        },
+        {
+            "id": 204,
+            "name": "Bo`zatov"
+        },
+        {
+            "id": 200,
+            "name": "Taxiatosh"
+        }
+    ],
+    "11": [
+        {
+            "id": 147,
+            "name": "Bandixon"
+        },
+        {
+            "id": 149,
+            "name": "Jarqo`rg`on"
+        },
+        {
+            "id": 151,
+            "name": "Qiziriq"
+        },
+        {
+            "id": 146,
+            "name": "Boysun"
+        },
+        {
+            "id": 148,
+            "name": "Denov"
+        },
+        {
+            "id": 150,
+            "name": "Qumqo`rg`on"
+        },
+        {
+            "id": 144,
+            "name": "Oltinsoy"
+        },
+        {
+            "id": 145,
+            "name": "Angor"
+        },
+        {
+            "id": 152,
+            "name": "Muzrabot"
+        },
+        {
+            "id": 153,
+            "name": "Sariosiyo"
+        },
+        {
+            "id": 154,
+            "name": "Termiz"
+        },
+        {
+            "id": 155,
+            "name": "Uzun"
+        },
+        {
+            "id": 156,
+            "name": "Sherobod"
+        },
+        {
+            "id": 157,
+            "name": "Sho'rchi"
+        },
+        {
+            "id": 158,
+            "name": "Termiz sh."
+        }
+    ],
+    "7": [
+        {
+            "id": 93,
+            "name": "Dehqonobod"
+        },
+        {
+            "id": 102,
+            "name": "Chiroqchi"
+        },
+        {
+            "id": 103,
+            "name": "Shaxrisabz"
+        },
+        {
+            "id": 104,
+            "name": "Yakkabog `"
+        },
+        {
+            "id": 105,
+            "name": "Qarshi sh"
+        },
+        {
+            "id": 92,
+            "name": "G`uzor"
+        },
+        {
+            "id": 94,
+            "name": "Qamashi"
+        },
+        {
+            "id": 95,
+            "name": "Qarshi tumani"
+        },
+        {
+            "id": 96,
+            "name": "Koson"
+        },
+        {
+            "id": 97,
+            "name": "Kasbi"
+        },
+        {
+            "id": 214,
+            "name": "Ko‘kdala"
+        },
+        {
+            "id": 98,
+            "name": "Kitob"
+        },
+        {
+            "id": 99,
+            "name": "Mirishkor"
+        },
+        {
+            "id": 100,
+            "name": "Muborak"
+        },
+        {
+            "id": 101,
+            "name": "Nishon"
+        },
+        {
+            "id": 202,
+            "name": "Shahrisabz shahri"
+        }
+    ],
+    "5": [
+        {
+            "id": 68,
+            "name": "Paxtakor"
+        },
+        {
+            "id": 69,
+            "name": "Zomin"
+        },
+        {
+            "id": 70,
+            "name": "Sharof Rashidov"
+        },
+        {
+            "id": 71,
+            "name": "Zarbdor"
+        },
+        {
+            "id": 72,
+            "name": "Zafarobod"
+        },
+        {
+            "id": 73,
+            "name": "Mirzachul"
+        },
+        {
+            "id": 74,
+            "name": "Forish"
+        },
+        {
+            "id": 75,
+            "name": "Jizzax shahri"
+        },
+        {
+            "id": 63,
+            "name": "Arnasoy"
+        },
+        {
+            "id": 64,
+            "name": "Yangiobod"
+        },
+        {
+            "id": 65,
+            "name": "Baxmal"
+        },
+        {
+            "id": 66,
+            "name": "G'allorol"
+        },
+        {
+            "id": 67,
+            "name": "Do`stlik"
+        }
+    ],
+    "13": [
+        {
+            "id": 175,
+            "name": "Dangara"
+        },
+        {
+            "id": 176,
+            "name": "Quva"
+        },
+        {
+            "id": 173,
+            "name": "Beshariq"
+        },
+        {
+            "id": 174,
+            "name": "Buvayda"
+        },
+        {
+            "id": 177,
+            "name": "Rishton"
+        },
+        {
+            "id": 178,
+            "name": "So`x"
+        },
+        {
+            "id": 179,
+            "name": "Toshloq"
+        },
+        {
+            "id": 180,
+            "name": "O`zbekiston"
+        },
+        {
+            "id": 181,
+            "name": "Uchko'prik"
+        },
+        {
+            "id": 182,
+            "name": "Farg'ona"
+        },
+        {
+            "id": 183,
+            "name": "Furqat"
+        },
+        {
+            "id": 184,
+            "name": "Yozyovon"
+        },
+        {
+            "id": 185,
+            "name": "Qo'qon sh"
+        },
+        {
+            "id": 186,
+            "name": "Quvasoy sh"
+        },
+        {
+            "id": 187,
+            "name": "Marg`ilon shahri"
+        },
+        {
+            "id": 188,
+            "name": "Farg'ona shahar"
+        },
+        {
+            "id": 170,
+            "name": "Oltiariq"
+        },
+        {
+            "id": 171,
+            "name": "Qushtepa"
+        },
+        {
+            "id": 172,
+            "name": "Bog`dod"
+        }
+    ],
+    "2": [
+        {
+            "id": 18,
+            "name": "Qibray"
+        },
+        {
+            "id": 19,
+            "name": "Quyi-Chirchiq"
+        },
+        {
+            "id": 20,
+            "name": "Parkent"
+        },
+        {
+            "id": 21,
+            "name": "Piskent"
+        },
+        {
+            "id": 12,
+            "name": "Bo‘stonliq"
+        },
+        {
+            "id": 13,
+            "name": "Bekobod"
+        },
+        {
+            "id": 14,
+            "name": "Oqqurg'on"
+        },
+        {
+            "id": 15,
+            "name": "Ohangaron tumani"
+        },
+        {
+            "id": 16,
+            "name": "Buka"
+        },
+        {
+            "id": 17,
+            "name": "Zangi-ota"
+        },
+        {
+            "id": 22,
+            "name": "Toshkent"
+        },
+        {
+            "id": 23,
+            "name": "O‘rtachirchiq"
+        },
+        {
+            "id": 24,
+            "name": "Chinoz"
+        },
+        {
+            "id": 25,
+            "name": "Yuqori-Chirchiq"
+        },
+        {
+            "id": 26,
+            "name": "Yangiyo‘l"
+        },
+        {
+            "id": 27,
+            "name": "Olmaliq shahar"
+        },
+        {
+            "id": 28,
+            "name": "Angren sh"
+        },
+        {
+            "id": 29,
+            "name": "Axangaron sh"
+        },
+        {
+            "id": 30,
+            "name": "Bekobod sh"
+        },
+        {
+            "id": 31,
+            "name": "Chirchiq shahar"
+        },
+        {
+            "id": 32,
+            "name": "Yangiyo‘l sh"
+        },
+        {
+            "id": 203,
+            "name": "Nurafshon sh."
+        }
+    ],
+    "10": [
+        {
+            "id": 129,
+            "name": "Bulung'ur"
+        },
+        {
+            "id": 128,
+            "name": "Oqdaryo"
+        },
+        {
+            "id": 141,
+            "name": "Urgut"
+        },
+        {
+            "id": 142,
+            "name": "Kattaqo`rg`on shahri"
+        },
+        {
+            "id": 143,
+            "name": "Samarqand shahri"
+        },
+        {
+            "id": 130,
+            "name": "Jomboy"
+        },
+        {
+            "id": 131,
+            "name": "Ishtixon"
+        },
+        {
+            "id": 132,
+            "name": "Kattaqo`rg`on"
+        },
+        {
+            "id": 133,
+            "name": "Qo`shrabod"
+        },
+        {
+            "id": 134,
+            "name": "Narpay"
+        },
+        {
+            "id": 135,
+            "name": "Nurobod"
+        },
+        {
+            "id": 136,
+            "name": "Payariq"
+        },
+        {
+            "id": 137,
+            "name": "Pastdarg`om"
+        },
+        {
+            "id": 138,
+            "name": "Paxtachi"
+        },
+        {
+            "id": 139,
+            "name": "Samarqand"
+        },
+        {
+            "id": 140,
+            "name": "Toyloq"
+        }
+    ],
+    "14": [
+        {
+            "id": 210,
+            "name": "Tuproqqal’a"
+        },
+        {
+            "id": 191,
+            "name": "Qoshkupir"
+        },
+        {
+            "id": 192,
+            "name": "Urganch"
+        },
+        {
+            "id": 193,
+            "name": "Xazorasp"
+        },
+        {
+            "id": 189,
+            "name": "Bogot"
+        },
+        {
+            "id": 190,
+            "name": "Gurlan"
+        },
+        {
+            "id": 194,
+            "name": "Xonqa"
+        },
+        {
+            "id": 195,
+            "name": "Xiva"
+        },
+        {
+            "id": 196,
+            "name": "Shovot"
+        },
+        {
+            "id": 197,
+            "name": "Yangiariq"
+        },
+        {
+            "id": 198,
+            "name": "Yangibozor"
+        },
+        {
+            "id": 199,
+            "name": "Urganch sh"
+        },
+        {
+            "id": 201,
+            "name": "Xiva sh"
+        }
+    ],
+    "3": [
+        {
+            "id": 44,
+            "name": "Marhamat"
+        },
+        {
+            "id": 45,
+            "name": "Paxtaobod"
+        },
+        {
+            "id": 46,
+            "name": "Ulugnor"
+        },
+        {
+            "id": 47,
+            "name": "Xo`jaobod"
+        },
+        {
+            "id": 48,
+            "name": "Xonobod"
+        },
+        {
+            "id": 49,
+            "name": "Shahrixon"
+        },
+        {
+            "id": 38,
+            "name": "Baliqchi"
+        },
+        {
+            "id": 39,
+            "name": "Bo‘ston"
+        },
+        {
+            "id": 40,
+            "name": "Buloqboshi"
+        },
+        {
+            "id": 41,
+            "name": "Jalalquduq"
+        },
+        {
+            "id": 42,
+            "name": "Izboskan"
+        },
+        {
+            "id": 43,
+            "name": "Qo`rg`ontepa"
+        },
+        {
+            "id": 33,
+            "name": "Andijon sh."
+        },
+        {
+            "id": 35,
+            "name": "Oltinko`l"
+        },
+        {
+            "id": 36,
+            "name": "Andijon"
+        },
+        {
+            "id": 37,
+            "name": "Asaka"
+        }
+    ],
+    "4": [
+        {
+            "id": 50,
+            "name": "Buxoro shahri"
+        },
+        {
+            "id": 51,
+            "name": "Kogon shahri"
+        },
+        {
+            "id": 52,
+            "name": "Olot"
+        },
+        {
+            "id": 53,
+            "name": "Buxoro tumani"
+        },
+        {
+            "id": 54,
+            "name": "Vobkent"
+        },
+        {
+            "id": 55,
+            "name": "G`ijduvon"
+        },
+        {
+            "id": 56,
+            "name": "Jondor"
+        },
+        {
+            "id": 57,
+            "name": "Kogon"
+        },
+        {
+            "id": 58,
+            "name": "Qorako`l"
+        },
+        {
+            "id": 59,
+            "name": "Peshku"
+        },
+        {
+            "id": 60,
+            "name": "Romitan"
+        },
+        {
+            "id": 61,
+            "name": "Qorovulbozor"
+        },
+        {
+            "id": 62,
+            "name": "Shofirkon"
+        }
+    ],
+    "1": [
+        {
+            "id": 1,
+            "name": "Bektemir"
+        },
+        {
+            "id": 2,
+            "name": "Mirzo Ulug‘bek"
+        },
+        {
+            "id": 3,
+            "name": "Mirobod"
+        },
+        {
+            "id": 4,
+            "name": "Olmazor"
+        },
+        {
+            "id": 5,
+            "name": "Sergeli"
+        },
+        {
+            "id": 6,
+            "name": "Uchtepa"
+        },
+        {
+            "id": 7,
+            "name": "Yashnobod"
+        },
+        {
+            "id": 8,
+            "name": "Chilonzor"
+        },
+        {
+            "id": 9,
+            "name": "Shayxontohur"
+        },
+        {
+            "id": 10,
+            "name": "Yunusobod"
+        },
+        {
+            "id": 11,
+            "name": "Yakkasaroy"
+        },
+        {
+            "id": 205,
+            "name": "Yangihayot"
+        }
+    ],
+    "9": [
+        {
+            "id": 116,
+            "name": "Kosonsoy"
+        },
+        {
+            "id": 118,
+            "name": "Namangan"
+        },
+        {
+            "id": 120,
+            "name": "Pop"
+        },
+        {
+            "id": 122,
+            "name": "Uychi"
+        },
+        {
+            "id": 117,
+            "name": "Mingbuloq"
+        },
+        {
+            "id": 119,
+            "name": "Norin"
+        },
+        {
+            "id": 121,
+            "name": "To`raqo`rg`on"
+        },
+        {
+            "id": 123,
+            "name": "Uchqo`rg`on"
+        },
+        {
+            "id": 125,
+            "name": "Chust"
+        },
+        {
+            "id": 127,
+            "name": "Namangan shahri"
+        },
+        {
+            "id": 124,
+            "name": "Chortoq"
+        },
+        {
+            "id": 126,
+            "name": "Yangiqo`rg`on"
+        },
+        {
+            "id": 215,
+            "name": "Yangi Namangan"
+        },
+        {
+            "id": 209,
+            "name": "Davlatobod"
+        }
+    ],
+    "8": [
+        {
+            "id": 106,
+            "name": "Konimex"
+        },
+        {
+            "id": 108,
+            "name": "Navbahor"
+        },
+        {
+            "id": 110,
+            "name": "Nurota"
+        },
+        {
+            "id": 112,
+            "name": "Uchquduq"
+        },
+        {
+            "id": 114,
+            "name": "Zarafshon shahri"
+        },
+        {
+            "id": 107,
+            "name": "Qiziltepa"
+        },
+        {
+            "id": 109,
+            "name": "Karmana"
+        },
+        {
+            "id": 111,
+            "name": "Tomdi"
+        },
+        {
+            "id": 113,
+            "name": "Xatirchi"
+        },
+        {
+            "id": 115,
+            "name": "Navoiy shahri"
+        },
+        {
+            "id": 207,
+            "name": "Gʻozg‘on shahar"
+        }
+    ],
+    "12": [
+        {
+            "id": 160,
+            "name": "Boyovut"
+        },
+        {
+            "id": 162,
+            "name": "Mirzaobod"
+        },
+        {
+            "id": 163,
+            "name": "Sardoba"
+        },
+        {
+            "id": 164,
+            "name": "Sayxunobod"
+        },
+        {
+            "id": 159,
+            "name": "Oqoltin"
+        },
+        {
+            "id": 161,
+            "name": "Guliston"
+        },
+        {
+            "id": 165,
+            "name": "Sirdaryo"
+        },
+        {
+            "id": 166,
+            "name": "Xovost"
+        },
+        {
+            "id": 167,
+            "name": "Guliston shahri"
+        },
+        {
+            "id": 168,
+            "name": "Shirin shahri"
+        },
+        {
+            "id": 169,
+            "name": "Yangiyer shahri"
+        }
+    ]
+}
