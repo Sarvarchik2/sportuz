@@ -7,7 +7,8 @@
                     <span>Sport inshoatlari</span>
                     <span class="tab-count" v-if="activeTab === 'facilities'">{{ resultCount }}</span>
                 </button>
-                <button :class="['tab-btn', { active: activeTab === 'orglocations' }]" @click="switchTab('orglocations')">
+                <button :class="['tab-btn', { active: activeTab === 'orglocations' }]"
+                    @click="switchTab('orglocations')">
                     <span>Sport muassasalari joylashuvi</span>
                     <span class="tab-count" v-if="activeTab === 'orglocations'">{{ resultCount }}</span>
                 </button>
@@ -55,6 +56,20 @@
                     <button @click="resetFilters" class="button ghost">Filtrlarni tozalash</button>
                 </div>
             </div>
+            <div class="logos">
+                <img src="@/assets/mysportuz.svg" alt="uca-logo">
+                <svg data-v-a5914270="" version="1.1" viewBox="-188.247 470.163 78.939 90.801"
+                    xmlns="http://www.w3.org/2000/svg" class="w-6 fill-current">
+                    <defs></defs>
+                    <path
+                        d="M -187.498 471.261 C -162.089 471.261 -136.682 471.261 -110.503 471.261 C -110.503 476.405 -110.503 481.548 -110.503 486.847 C -111.353 486.886 -112.204 486.925 -113.08 486.965 C -113.527 487.003 -113.964 487.043 -114.406 487.104 C -114.515 487.119 -114.625 487.133 -114.738 487.149 C -117.799 487.593 -120.735 488.544 -123.511 489.895 C -123.597 489.937 -123.683 489.978 -123.772 490.022 C -126.053 491.145 -128.177 492.616 -130.044 494.34 C -130.276 494.553 -130.513 494.755 -130.755 494.956 C -135.318 498.959 -138.265 505.1 -139.331 510.989 C -139.35 511.092 -139.37 511.195 -139.39 511.302 C -140.705 518.801 -138.726 526.632 -134.437 532.852 C -133.817 533.735 -133.13 534.557 -132.417 535.366 C -132.34 535.454 -132.34 535.454 -132.262 535.544 C -127.377 541.108 -120.129 544.626 -112.747 545.135 C -112.416 545.155 -112.084 545.171 -111.752 545.185 C -111.334 545.209 -110.918 545.267 -110.503 545.327 C -110.503 550.432 -110.503 555.537 -110.503 560.796 C -122.746 560.796 -134.065 555.875 -142.73 547.32 C -143.011 547.025 -143.282 546.727 -143.548 546.42 C -143.806 546.123 -144.074 545.84 -144.342 545.554 C -145.114 544.703 -145.795 543.787 -146.48 542.865 C -146.544 542.78 -146.609 542.696 -146.674 542.608 C -147.684 541.262 -148.575 539.872 -149.41 538.412 C -149.468 538.312 -149.526 538.212 -149.585 538.108 C -152.361 533.273 -154 528.065 -154.919 522.591 C -154.941 522.458 -154.964 522.325 -154.988 522.188 C -155.643 518.157 -155.589 513.611 -154.919 509.583 C -154.898 509.453 -154.878 509.324 -154.856 509.19 C -153.511 500.948 -150.047 493.312 -144.605 486.965 C -158.759 486.926 -172.914 486.887 -187.498 486.847 C -187.498 481.704 -187.498 476.561 -187.498 471.261 Z">
+                    </path>
+                </svg>
+                <img src="@/assets/cybersport.png" alt="uca-logo">
+
+                <img src="@/assets/link.ico" alt="link-digtal-logo">
+
+            </div>
         </div>
 
         <!-- Map -->
@@ -62,10 +77,15 @@
             <div ref="mapContainer" class="map"></div>
             <div id="legend" class="legend" v-show="groupByCategory"></div>
         </div>
+        <div class="mobile">
+            <h2>Kompyuterdan <br> kirishingizni soraymiz!</h2>
+        </div>
+
     </div>
 </template>
 
 <script setup lang="ts">
+// import Logo1 from '../assets/'
 import { ref, computed, watch, onMounted, onBeforeUnmount } from 'vue'
 import mapboxgl from 'mapbox-gl'
 
@@ -397,6 +417,33 @@ onBeforeUnmount(() => map.value?.remove())
     font-family: Inter, system-ui, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial
 }
 
+.fill-current{
+    fill: #fff;
+}
+.logos {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(15, 20, 34, .62), rgba(15, 20, 34, .48));
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.logos img{
+    height: 100%;
+    object-fit: contain;
+    width: 100px;
+}
+.fill-current{
+    height: 82%;
+    width: 100px;
+    object-fit: contain;
+
+
+}
+
 .map-container {
     flex: 1;
     position: relative;
@@ -726,14 +773,15 @@ onBeforeUnmount(() => map.value?.remove())
 :deep(.mapboxgl-popup.sport-popup .mapboxgl-popup-tip) {
     display: none;
 }
-
+.mobile{
+    display: none;
+}
 /* Responsive */
-@media (max-width:1100px) {
+@media (max-width:769px) {
     .filter-panel-wrapper {
         position: fixed;
         inset: auto 12px 12px 12px;
-        top: auto;
-        left: auto;
+ 
         transform: none;
         width: auto;
     }
@@ -747,5 +795,22 @@ onBeforeUnmount(() => map.value?.remove())
     .actions {
         flex-direction: column;
     }
+    .mobile{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+.mobile h2{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
 }
 </style>
