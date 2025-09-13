@@ -55,39 +55,8 @@
           </div>
         </div>
   
-        <!-- Results list -->
-        <!-- <div class="results glass" v-if="!loading">
-          <div class="results-head">
-            <strong>{{ resultCount }}</strong> natija
-            <label class="small" v-if="groupByCategory">
-              Guruhlash: <span class="mono">{{ groupKeyLabel }}</span>
-            </label>
-          </div>
-          <div class="results-list">
-            <div class="res-item" v-for="it in lastFiltered" :key="it.uid">
-              <div class="res-title">
-                {{ it.name }}
-                <span v-if="it.paid" class="badge paid">Pullik</span>
-              </div>
-              <div class="res-meta">
-                <span v-if="it.type">{{ it.type }}</span>
-                <span v-if="it.facility">· {{ it.facility }}</span>
-                <span v-if="it.organization">· {{ it.organization }}</span>
-              </div>
-              <div class="res-addr" v-if="it.address">{{ it.address }}</div>
-              <div class="res-meta">
-                <span v-if="it.oblast">Hudud: {{ it.oblast }}</span>
-                <span v-if="it.district"> · Tuman: {{ it.district }}</span>
-              </div>
-              <div class="res-actions">
-                <button class="button ghost" @click="showOnMap(it)">Ko'rsatish</button>
-              </div>
-            </div>
-          </div>
-        </div> -->
-  
         <div class="logos">
-            <img src="@/assets/uzb.png" alt="uzb">
+          <img src="@/assets/uzb.png" alt="uzb">
           <img src="@/assets/mysportuz.svg" alt="uca-logo" />
           <svg version="1.1" viewBox="-188.247 470.163 78.939 90.801" xmlns="http://www.w3.org/2000/svg" class="w-6 fill-current">
             <path d="M -187.498 471.261 C -162.089 471.261 -136.682 471.261 -110.503 471.261 C -110.503 476.405 -110.503 481.548 -110.503 486.847 C -111.353 486.886 -112.204 486.925 -113.08 486.965 C -113.527 487.003 -113.964 487.043 -114.406 487.104 C -114.515 487.119 -114.625 487.133 -114.738 487.149 C -117.799 487.593 -120.735 488.544 -123.511 489.895 C -123.597 489.937 -123.683 489.978 -123.772 490.022 C -126.053 491.145 -128.177 492.616 -130.044 494.34 C -130.276 494.553 -130.513 494.755 -130.755 494.956 C -135.318 498.959 -138.265 505.1 -139.331 510.989 C -139.35 511.092 -139.37 511.195 -139.39 511.302 C -140.705 518.801 -138.726 526.632 -134.437 532.852 C -133.817 533.735 -133.13 534.557 -132.417 535.366 C -132.34 535.454 -132.34 535.454 -132.262 535.544 C -127.377 541.108 -120.129 544.626 -112.747 545.135 C -112.416 545.155 -112.084 545.171 -111.752 545.185 C -111.334 545.209 -110.918 545.267 -110.503 545.327 C -110.503 550.432 -110.503 555.537 -110.503 560.796 C -122.746 560.796 -134.065 555.875 -142.73 547.32 C -143.011 547.025 -143.282 546.727 -143.548 546.42 C -143.806 546.123 -144.074 545.84 -144.342 545.554 C -145.114 544.703 -145.795 543.787 -146.48 542.865 C -146.544 542.78 -146.609 542.696 -146.674 542.608 C -147.684 541.262 -148.575 539.872 -149.41 538.412 C -149.468 538.312 -149.526 538.212 -149.585 538.108 C -152.361 533.273 -154 528.065 -154.919 522.591 C -154.941 522.458 -154.964 522.325 -154.988 522.188 C -155.643 518.157 -155.589 513.611 -154.919 509.583 C -154.898 509.453 -154.878 509.324 -154.856 509.19 C -153.511 500.948 -150.047 493.312 -144.605 486.965 C -158.759 486.926 -172.914 486.887 -187.498 486.847 C -187.498 481.704 -187.498 476.561 -187.498 471.261 Z"/>
@@ -129,11 +98,18 @@
     lat: number
     lng: number
     paid: boolean
+    // NEW (для orglocations):
+    orgId?: number
+    sportTypes?: string[]  // список названий видов спорта, доступных в этой организации
   }
   
   const DATA_FAC = '/data/sport_inshootlari_joylashuvi.json'
   const DATA_ORG = '/data/sport_muassasalari_joylashuvi.json'
-  const DATA_ORG_PAID = '/data/osatsiatsiya_payed.json'
+  
+  // NEW: файлы для SPORT TURI и сопоставления организация ↔ спорт
+  const DATA_ORG_SPORTS_PAID   = '/data/sport_muassasalari_payed_for_filter.json'
+  const DATA_ORG_SPORTS_UNPAID = '/data/sport_muassasalari_unpayed_for_filter.json'
+  const DATA_SPORT_TYPES       = '/data/sport_turi.json'
   
   // Map constants
   const SRC_ID = 'points-src'
@@ -152,31 +128,44 @@
   // data
   const facSource = ref<LocationItem[]>([])
   const orgSource = ref<LocationItem[]>([])
-  const paidIds = ref<Set<number>>(new Set())
   
   const activeTab = ref<TabKey>('facilities')
   const paidOnly = ref(false)
   
+  // maps for sport type filtering
+  const sportTypeIdToName = ref<Map<string, string>>(new Map())
+  const orgIdToSportNames = ref<Map<number, Set<string>>>(new Map())
+  
   // filters
   const filtersFacilities = ref<Filters>({
-     oblast: '__ALL__', district: '__ALL__', organization: '__ALL__', facility: '__ALL__'
+    oblast: '__ALL__', district: '__ALL__', organization: '__ALL__', facility: '__ALL__'
   })
   const filtersOrgs = ref<Filters>({
+    sportType: '__ALL__',  // NEW
     oblast: '__ALL__', district: '__ALL__', organization: '__ALL__'
   })
   
   function uniq<T>(arr: T[]) { return Array.from(new Set(arr)) }
   function isAll(v?: string) { return v === '__ALL__' || v == null }
   
+  // bbox UZB (допуск небольшой)
+  const UZ_BBOX = { minLng: 55.0, minLat: 35.0, maxLng: 75.0, maxLat: 48.0 }
+  function inUZ(lat: number, lng: number) {
+    return isFinite(lat) && isFinite(lng) &&
+      lng >= UZ_BBOX.minLng && lng <= UZ_BBOX.maxLng &&
+      lat >= UZ_BBOX.minLat && lat <= UZ_BBOX.maxLat
+  }
+  
   // labels
   const labelsFacilities: Record<Key, string> = {
-    // sportType: 'Sport inshoati',
+    sportType: 'Sport turi',
     oblast: 'Hudud',
     district: 'Tuman(shahar)',
     organization: 'Tashkilot',
     facility: 'Sport inshoati'
   }
   const labelsOrgs: Partial<Record<Key, string>> = {
+    sportType: 'Sport turi', // NEW
     oblast: 'Hudud',
     district: 'Tuman(shahar)',
     organization: 'Tashkilot'
@@ -187,6 +176,7 @@
     const lat = Number(r.latitude ?? r.lat)
     const lng = Number(r.longitude ?? r.lng)
     if (!isFinite(lat) || !isFinite(lng)) return null
+    if (!inUZ(lat, lng)) return null   // NEW: отсечь вне Узбекистана
     const oblast = r?.oblast?.name || r.oblastname || r?.region?.oblast?.name || ''
     const district = r?.region?.name || r.regionname || r?.district?.name || null
     const name = r.name ?? 'Noma’lum inshoot'
@@ -203,13 +193,17 @@
       paid: false
     }
   }
+  
   function rowToOrg(r: any): LocationItem | null {
     const lat = Number(r.latitude ?? r.lat)
     const lng = Number(r.longitude ?? r.lng)
     if (!isFinite(lat) || !isFinite(lng)) return null
+    if (!inUZ(lat, lng)) return null   // NEW: отсечь вне Узбекистана
     const oblast = r?.region?.name || r?.oblast?.name || r.regionname || r.oblastname || ''
     const district = r?.oblast?.name || r.oblastname || r?.district?.name || null
     const id = Number(r.id)
+    const sportSet = orgIdToSportNames.value.get(id)
+    const sportTypes = sportSet ? Array.from(sportSet).sort() : []
     return {
       uid: `org-${id || r.organizationname}-${lat},${lng}`,
       name: r.organizationname ?? r.name ?? 'Tashkilot',
@@ -220,30 +214,66 @@
       facility: null,
       address: r.address ?? null,
       lat, lng,
-      paid: paidIds.value.has(id)
+      paid: Boolean(sportSet && sportSet.has('__PAID__')), // маркер из сборки карты (см. ниже)
+      orgId: id,
+      sportTypes
     }
+  }
+  
+  // -------- сборка карт спортов (из двух файлов paid/unpaid) --------
+  function buildOrgSportsMaps(sportsPaid: any, sportsUnpaid: any, sportTypesList: any[]) {
+    // sportTypeIdToName
+    sportTypeIdToName.value = new Map(
+      (Array.isArray(sportTypesList) ? sportTypesList : []).map((t: any) => [String(t.id), String(t.name)])
+    )
+  
+    const addFrom = (src: any, paidFlag: boolean) => {
+      if (!src || typeof src !== 'object') return
+      Object.keys(src).forEach((k) => {
+        const bucket = src[k]
+        const typeName = String(bucket?.name ?? sportTypeIdToName.value.get(k) ?? k)
+        const orgs = Array.isArray(bucket?.organizations) ? bucket.organizations : []
+        orgs.forEach((o: any) => {
+          const id = Number(o?.id)
+          if (!id) return
+          if (!orgIdToSportNames.value.has(id)) orgIdToSportNames.value.set(id, new Set<string>())
+          orgIdToSportNames.value.get(id)!.add(typeName)
+          if (paidFlag) orgIdToSportNames.value.get(id)!.add('__PAID__') // технический флаг "платная"
+        })
+      })
+    }
+  
+    orgIdToSportNames.value.clear()
+    addFrom(sportsPaid,   true)
+    addFrom(sportsUnpaid, false)
   }
   
   async function loadData() {
     try {
-      const [facRes, orgRes, paidRes] = await Promise.all([
-        fetch(DATA_FAC), fetch(DATA_ORG), fetch(DATA_ORG_PAID)
+      const [facRes, orgRes, paidSportsRes, unpayedSportsRes, sportsListRes] = await Promise.all([
+        fetch(DATA_FAC),
+        fetch(DATA_ORG),
+        fetch(DATA_ORG_SPORTS_PAID),
+        fetch(DATA_ORG_SPORTS_UNPAID),
+        fetch(DATA_SPORT_TYPES),
       ])
-      const facJson = await facRes.json()
-      const orgJson = await orgRes.json()
-      const paidJson = await paidRes.json()
   
-      paidIds.value = new Set((Array.isArray(paidJson) ? paidJson : []).map((o:any) => Number(o.id)))
+      const [facJson, orgJson, sportsPaidJson, sportsUnpaidJson, sportTypesJson] =
+        await Promise.all([facRes.json(), orgRes.json(), paidSportsRes.json(), unpayedSportsRes.json(), sportsListRes.json()])
   
+      // построить словари спортов
+      buildOrgSportsMaps(sportsPaidJson, sportsUnpaidJson, sportTypesJson)
+  
+      // источники
       facSource.value = (Array.isArray(facJson) ? facJson : []).map(rowToFacility).filter(Boolean) as LocationItem[]
-      // orgJson может быть { osatsiatsiya: [...] }
       const orgRaw = Array.isArray(orgJson) ? orgJson : (orgJson.osatsiatsiya || [])
       orgSource.value = orgRaw.map(rowToOrg).filter(Boolean) as LocationItem[]
     } catch (e) {
       console.error('Failed to load data', e)
       facSource.value = []
       orgSource.value = []
-      paidIds.value = new Set()
+      orgIdToSportNames.value.clear()
+      sportTypeIdToName.value.clear()
     } finally {
       loading.value = false
     }
@@ -251,13 +281,16 @@
   
   // ---------- computed ----------
   const currentSource = computed(() => activeTab.value === 'facilities' ? facSource.value : orgSource.value)
-  const hasPaid = computed(() => paidIds.value.size > 0)
+  const hasPaid = computed(() =>
+    // есть хотя бы одна организация, помеченная как платная (через флаг из orgIdToSportNames)
+    orgSource.value.some(x => x.paid)
+  )
   
   function dataForTab(tab: TabKey) {
     const base = tab === 'facilities' ? facSource.value : orgSource.value
     const f = tab === 'facilities' ? filtersFacilities.value : filtersOrgs.value
     return base.filter(l =>
-    //   (isAll(f.sportType) || l.type === f.sportType) &&
+      (tab === 'orglocations' ? (isAll(f.sportType) || (l.sportTypes || []).includes(String(f.sportType))) : true) &&
       (isAll(f.oblast) || l.oblast === f.oblast) &&
       (isAll(f.district) || l.district === f.district) &&
       (isAll(f.organization) || l.organization === f.organization) &&
@@ -273,14 +306,12 @@
     const groups: Array<{key: Key, label: string, options: string[]}> = []
     if (tab === 'facilities') {
       const filtered = (key?: Key) => src.filter(l =>
-        // (key === 'sportType' || isAll(f.sportType) || l.type === f.sportType) &&
         (key === 'oblast' || isAll(f.oblast) || l.oblast === f.oblast) &&
         (key === 'district' || isAll(f.district) || l.district === f.district) &&
         (key === 'organization' || isAll(f.organization) || l.organization === f.organization) &&
         (key === 'facility' || isAll(f.facility) || l.facility === f.facility)
       )
       groups.push(
-        // { key: 'sportType', label: labelsFacilities.sportType, options: uniq(filtered('sportType').map(l => l.type as string).filter(Boolean)) },
         { key: 'oblast',    label: labelsFacilities.oblast,    options: uniq(filtered('oblast').map(l => l.oblast).filter(Boolean)) },
         { key: 'district',  label: labelsFacilities.district,  options: uniq(filtered('district').map(l => l.district || '').filter(Boolean)) },
         { key: 'organization', label: labelsFacilities.organization, options: uniq(filtered('organization').map(l => l.organization || '').filter(Boolean)) },
@@ -292,11 +323,13 @@
       })
     } else {
       const filtered = (key?: Key) => src.filter(l =>
+        (key === 'sportType' || isAll(f.sportType) || (l.sportTypes || []).includes(String(f.sportType))) &&
         (key === 'oblast' || isAll(f.oblast) || l.oblast === f.oblast) &&
         (key === 'district' || isAll(f.district) || l.district === f.district) &&
         (key === 'organization' || isAll(f.organization) || l.organization === f.organization)
       )
       groups.push(
+        { key: 'sportType', label: labelsOrgs.sportType!, options: uniq(filtered('sportType').flatMap(l => l.sportTypes || []).filter(Boolean)).sort() }, // NEW
         { key: 'oblast', label: labelsOrgs.oblast!, options: uniq(filtered('oblast').map(l => l.oblast).filter(Boolean)) },
         { key: 'district', label: labelsOrgs.district!, options: uniq(filtered('district').map(l => l.district || '').filter(Boolean)) },
         { key: 'organization', label: labelsOrgs.organization!, options: uniq(filtered('organization').map(l => l.organization || '').filter(Boolean)) },
@@ -348,7 +381,8 @@
         properties: {
           name: p.name, type: p.type || '', oblast: p.oblast, district: p.district || '',
           organization: p.organization || '', facility: p.facility || '',
-          address: p.address || '', paid: p.paid ? 1 : 0
+          address: p.address || '', paid: p.paid ? 1 : 0,
+          sportTypes: (p.sportTypes || []).join('|')
         }
       }))
     }
@@ -357,7 +391,7 @@
   function updateMarkers(data: LocationItem[]) {
     lastFiltered.value = data
     resultCount.value = data.length
-    buildLegend(groupByCategory.value ? uniq(data.map(d => ((d as any)[groupKey.value] as string) || '').filter(Boolean)) : [])
+    buildLegend(groupByCategory.value ? uniq(data.flatMap(d => d.sportTypes || []).filter(Boolean)) : [])
     if (!map.value) return
     const src = map.value.getSource(SRC_ID) as mapboxgl.GeoJSONSource
     if (src) src.setData(toGeoJSON(data))
@@ -406,9 +440,9 @@
   }
   function resetFilters() {
     if (activeTab.value === 'facilities') {
-      filtersFacilities.value = {  oblast: '__ALL__', district: '__ALL__', organization: '__ALL__', facility: '__ALL__' }
+      filtersFacilities.value = { oblast: '__ALL__', district: '__ALL__', organization: '__ALL__', facility: '__ALL__' }
     } else {
-      filtersOrgs.value = { oblast: '__ALL__', district: '__ALL__', organization: '__ALL__' }
+      filtersOrgs.value = { sportType: '__ALL__', oblast: '__ALL__', district: '__ALL__', organization: '__ALL__' }
       paidOnly.value = false
     }
     updateMarkers(currentSource.value)
@@ -566,7 +600,7 @@
   
   onBeforeUnmount(() => map.value?.remove())
   </script>
-  
+
   <style scoped>
   /* ===== 7Saber Brand / Dark Mode ===== */
   .sportmap{position:relative;display:flex;height:100vh;color:var(--text);background:var(--bg);font-family:Inter,system-ui,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial}

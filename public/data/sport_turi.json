@@ -1,0 +1,822 @@
+[
+    {
+        "id": 19,
+        "name": "Basketbol",
+        "code": "019"
+    },
+    {
+        "id": 173,
+        "name": "Paralimpiya sport turlari",
+        "code": "158"
+    },
+    {
+        "id": 49,
+        "name": "Universal jang",
+        "code": "049"
+    },
+    {
+        "id": 78,
+        "name": "Belbog‘li kurash",
+        "code": "078"
+    },
+    {
+        "id": 106,
+        "name": "Jiu –jitsu sport turi",
+        "code": "106"
+    },
+    {
+        "id": 28,
+        "name": "Tog‘ chang‘isi",
+        "code": "028"
+    },
+    {
+        "id": 14,
+        "name": "Regbi",
+        "code": "014"
+    },
+    {
+        "id": 111,
+        "name": "Zamonaviy uch kurash",
+        "code": "111"
+    },
+    {
+        "id": 8,
+        "name": "Akademik eshkak eshish",
+        "code": "008"
+    },
+    {
+        "id": 67,
+        "name": "Velosport",
+        "code": "067"
+    },
+    {
+        "id": 65,
+        "name": "Yengil atletika",
+        "code": "065"
+    },
+    {
+        "id": 143,
+        "name": "Kross",
+        "code": "144"
+    },
+    {
+        "id": 144,
+        "name": "Ralli",
+        "code": "145"
+    },
+    {
+        "id": 149,
+        "name": "Gandbol",
+        "code": "017"
+    },
+    {
+        "id": 10,
+        "name": "Erkin kurash",
+        "code": "010"
+    },
+    {
+        "id": 122,
+        "name": "Para badminton",
+        "code": "122"
+    },
+    {
+        "id": 134,
+        "name": "Tennis aravachada",
+        "code": "134"
+    },
+    {
+        "id": 137,
+        "name": "Polo",
+        "code": "138"
+    },
+    {
+        "id": 129,
+        "name": "Bochcha",
+        "code": "129"
+    },
+    {
+        "id": 63,
+        "name": "Stol tennisi",
+        "code": "063"
+    },
+    {
+        "id": 113,
+        "name": "Para yengil atletika",
+        "code": "113"
+    },
+    {
+        "id": 50,
+        "name": "Xapkido ",
+        "code": "050"
+    },
+    {
+        "id": 145,
+        "name": "Ralli-kross",
+        "code": "146"
+    },
+    {
+        "id": 142,
+        "name": "Aylanma poygalar",
+        "code": "143"
+    },
+    {
+        "id": 48,
+        "name": "Kendo",
+        "code": "048"
+    },
+    {
+        "id": 51,
+        "name": "Penchak silat",
+        "code": "051"
+    },
+    {
+        "id": 56,
+        "name": "Triatlon",
+        "code": "056"
+    },
+    {
+        "id": 59,
+        "name": "Mototsikl sport",
+        "code": "059"
+    },
+    {
+        "id": 60,
+        "name": "Avtomobil sport",
+        "code": "060"
+    },
+    {
+        "id": 86,
+        "name": "Zamonaviy beshkurash",
+        "code": "086"
+    },
+    {
+        "id": 87,
+        "name": "Alpinizm",
+        "code": "087"
+    },
+    {
+        "id": 93,
+        "name": "Velosport BMX",
+        "code": "093"
+    },
+    {
+        "id": 97,
+        "name": "Parashyut sporti",
+        "code": "097"
+    },
+    {
+        "id": 99,
+        "name": "Pichoq uloqtirish",
+        "code": "099"
+    },
+    {
+        "id": 101,
+        "name": "O`zbekiston bilyard sporti",
+        "code": "101"
+    },
+    {
+        "id": 162,
+        "name": "Para karate",
+        "code": "154"
+    },
+    {
+        "id": 21,
+        "name": "Chim ustida xokkey",
+        "code": "021"
+    },
+    {
+        "id": 26,
+        "name": "Sinxron suzish",
+        "code": "026"
+    },
+    {
+        "id": 29,
+        "name": "Snoubord",
+        "code": "029"
+    },
+    {
+        "id": 164,
+        "name": "Pankration va Greppling",
+        "code": "156"
+    },
+    {
+        "id": 23,
+        "name": "Kamondan o`q otish",
+        "code": "023"
+    },
+    {
+        "id": 40,
+        "name": "An’anaviy tayekvondo",
+        "code": "040"
+    },
+    {
+        "id": 169,
+        "name": "Sog'lom turmush tarzi va fitnes",
+        "code": "164"
+    },
+    {
+        "id": 43,
+        "name": "Ashixara karate",
+        "code": "043"
+    },
+    {
+        "id": 47,
+        "name": "Djit Kun Do",
+        "code": "047"
+    },
+    {
+        "id": 158,
+        "name": "Tekbol",
+        "code": "150"
+    },
+    {
+        "id": 24,
+        "name": "Stenddan o`q otish",
+        "code": "024"
+    },
+    {
+        "id": 94,
+        "name": "Velosport MTB",
+        "code": "094"
+    },
+    {
+        "id": 27,
+        "name": "Turon",
+        "code": "027"
+    },
+    {
+        "id": 55,
+        "name": "Biatlon ",
+        "code": "055"
+    },
+    {
+        "id": 61,
+        "name": "Avtomodel sport",
+        "code": "061"
+    },
+    {
+        "id": 30,
+        "name": "Figurali uchish",
+        "code": "030"
+    },
+    {
+        "id": 172,
+        "name": "Surdolimpiya sport turlari",
+        "code": "160"
+    },
+    {
+        "id": 96,
+        "name": "Kyokusinkay karate",
+        "code": "096"
+    },
+    {
+        "id": 13,
+        "name": "Qilichbozlik",
+        "code": "013"
+    },
+    {
+        "id": 71,
+        "name": "Sambo ",
+        "code": "071"
+    },
+    {
+        "id": 148,
+        "name": "Trofi-reyd",
+        "code": "149"
+    },
+    {
+        "id": 79,
+        "name": "Bahodirlarlar o`yini",
+        "code": "079"
+    },
+    {
+        "id": 103,
+        "name": "Fransuz boksi “Savat”",
+        "code": "103"
+    },
+    {
+        "id": 108,
+        "name": "Elkanli sport",
+        "code": "108"
+    },
+    {
+        "id": 20,
+        "name": "Badminton",
+        "code": "020"
+    },
+    {
+        "id": 22,
+        "name": "Voleybol",
+        "code": "022"
+    },
+    {
+        "id": 12,
+        "name": "Ot sporti",
+        "code": "012"
+    },
+    {
+        "id": 37,
+        "name": "Ushu ",
+        "code": "037"
+    },
+    {
+        "id": 88,
+        "name": "Qoyani zabt etish ",
+        "code": "088"
+    },
+    {
+        "id": 135,
+        "name": "Para triatlon",
+        "code": "135"
+    },
+    {
+        "id": 117,
+        "name": "Para akademik eshkak eshish",
+        "code": "117"
+    },
+    {
+        "id": 52,
+        "name": "Kikboksing ",
+        "code": "052"
+    },
+    {
+        "id": 36,
+        "name": "O‘zbek jang san’ati",
+        "code": "036"
+    },
+    {
+        "id": 69,
+        "name": "O‘q otish",
+        "code": "069"
+    },
+    {
+        "id": 34,
+        "name": "Xokkey ",
+        "code": "034"
+    },
+    {
+        "id": 32,
+        "name": "Short trek",
+        "code": "032"
+    },
+    {
+        "id": 38,
+        "name": "An’naviy ushu",
+        "code": "038"
+    },
+    {
+        "id": 33,
+        "name": "Fristayl ",
+        "code": "033"
+    },
+    {
+        "id": 83,
+        "name": "Milliy Kurash",
+        "code": "083"
+    },
+    {
+        "id": 90,
+        "name": "Aykido",
+        "code": "090"
+    },
+    {
+        "id": 170,
+        "name": "Fidjital sport o'yinlari",
+        "code": "165"
+    },
+    {
+        "id": 70,
+        "name": "Uloq ko`pkari",
+        "code": "070"
+    },
+    {
+        "id": 9,
+        "name": "Slalomda eshkak eshish",
+        "code": "009"
+    },
+    {
+        "id": 98,
+        "name": "Golf",
+        "code": "098"
+    },
+    {
+        "id": 58,
+        "name": "Aviamodel va raketmodel",
+        "code": "058"
+    },
+    {
+        "id": 102,
+        "name": "Aralash jang san’ati",
+        "code": "102"
+    },
+    {
+        "id": 120,
+        "name": "Para pauerlifting",
+        "code": "120"
+    },
+    {
+        "id": 92,
+        "name": "Sportcha mo‘ljal olish",
+        "code": "092"
+    },
+    {
+        "id": 42,
+        "name": "Fudokan karate",
+        "code": "042"
+    },
+    {
+        "id": 126,
+        "name": "Para shaxmat",
+        "code": "126"
+    },
+    {
+        "id": 53,
+        "name": "Karate WKF",
+        "code": "053"
+    },
+    {
+        "id": 62,
+        "name": "Radiosport",
+        "code": "062"
+    },
+    {
+        "id": 68,
+        "name": "Bel olish kurash ",
+        "code": "068"
+    },
+    {
+        "id": 73,
+        "name": "Armrestling ",
+        "code": "073"
+    },
+    {
+        "id": 75,
+        "name": "Pauerlifting ",
+        "code": "075"
+    },
+    {
+        "id": 167,
+        "name": "Arg'umchoqda sakrash",
+        "code": "163"
+    },
+    {
+        "id": 123,
+        "name": "Para qilichbozlik",
+        "code": "123"
+    },
+    {
+        "id": 6,
+        "name": "Sport akrobatikasi",
+        "code": "006"
+    },
+    {
+        "id": 128,
+        "name": "Basketbol aravachada",
+        "code": "128"
+    },
+    {
+        "id": 131,
+        "name": "Para ot sporti",
+        "code": "131"
+    },
+    {
+        "id": 132,
+        "name": "Regbi aravachada",
+        "code": "132"
+    },
+    {
+        "id": 76,
+        "name": "Bouling ",
+        "code": "076"
+    },
+    {
+        "id": 80,
+        "name": "Axalteke ",
+        "code": "080"
+    },
+    {
+        "id": 85,
+        "name": "Sirim ",
+        "code": "085"
+    },
+    {
+        "id": 84,
+        "name": "Taekvondo ITF (federatsiya)",
+        "code": "084"
+    },
+    {
+        "id": 118,
+        "name": "Para kanoe",
+        "code": "118"
+    },
+    {
+        "id": 109,
+        "name": "Bel olish va uch kurash ",
+        "code": "109"
+    },
+    {
+        "id": 124,
+        "name": "Para 5x5 futbol",
+        "code": "124"
+    },
+    {
+        "id": 64,
+        "name": "Dzyudo",
+        "code": "064"
+    },
+    {
+        "id": 39,
+        "name": "Taekvondo ITF",
+        "code": "039"
+    },
+    {
+        "id": 45,
+        "name": "Oyama kiokushinkay",
+        "code": "045"
+    },
+    {
+        "id": 31,
+        "name": "Kyorling ",
+        "code": "031"
+    },
+    {
+        "id": 4,
+        "name": "Badiiy gimnastika",
+        "code": "004"
+    },
+    {
+        "id": 91,
+        "name": "Sport turizmi ",
+        "code": "091"
+    },
+    {
+        "id": 15,
+        "name": "Tennis",
+        "code": "015"
+    },
+    {
+        "id": 44,
+        "name": "Qo‘l jangi ",
+        "code": "044"
+    },
+    {
+        "id": 72,
+        "name": "Yong`in o`chirich amaliy sporti",
+        "code": "072"
+    },
+    {
+        "id": 140,
+        "name": "Dreg-reysling",
+        "code": "141"
+    },
+    {
+        "id": 11,
+        "name": "Yunon-rum kurashi",
+        "code": "011"
+    },
+    {
+        "id": 107,
+        "name": "ITFK karate-do sport turi ",
+        "code": "107"
+    },
+    {
+        "id": 57,
+        "name": "Sudomodel (kema) sport",
+        "code": "057"
+    },
+    {
+        "id": 121,
+        "name": "Para stol tennis",
+        "code": "121"
+    },
+    {
+        "id": 100,
+        "name": "Kibersport",
+        "code": "100"
+    },
+    {
+        "id": 74,
+        "name": "Suv polosi",
+        "code": "074"
+    },
+    {
+        "id": 104,
+        "name": "Djun ri do",
+        "code": "104"
+    },
+    {
+        "id": 105,
+        "name": "Kriket sport turi",
+        "code": "105"
+    },
+    {
+        "id": 130,
+        "name": "Para voleybol",
+        "code": "130"
+    },
+    {
+        "id": 138,
+        "name": "Tog‘ poygasi",
+        "code": "139"
+    },
+    {
+        "id": 110,
+        "name": "Zamonaviy besh kurash",
+        "code": "110"
+    },
+    {
+        "id": 119,
+        "name": "Para taekvondo",
+        "code": "119"
+    },
+    {
+        "id": 147,
+        "name": "Trek poygalari",
+        "code": "148"
+    },
+    {
+        "id": 35,
+        "name": "Taekvondo WTF",
+        "code": "035"
+    },
+    {
+        "id": 16,
+        "name": "Shaxmat ",
+        "code": "016"
+    },
+    {
+        "id": 141,
+        "name": "Karting",
+        "code": "142"
+    },
+    {
+        "id": 146,
+        "name": "Ralli-sprint",
+        "code": "147"
+    },
+    {
+        "id": 157,
+        "name": "Workout",
+        "code": "136"
+    },
+    {
+        "id": 159,
+        "name": "Amputantlar futboli",
+        "code": "152"
+    },
+    {
+        "id": 163,
+        "name": "Para kibersport",
+        "code": "155"
+    },
+    {
+        "id": 116,
+        "name": "Para suzish",
+        "code": "116"
+    },
+    {
+        "id": 95,
+        "name": "An’anaviy karate",
+        "code": "095"
+    },
+    {
+        "id": 5,
+        "name": "Trampolin",
+        "code": "005"
+    },
+    {
+        "id": 3,
+        "name": "Sport gimnastikasi",
+        "code": "003"
+    },
+    {
+        "id": 125,
+        "name": "Para velosport",
+        "code": "125"
+    },
+    {
+        "id": 136,
+        "name": "Stridbol",
+        "code": "137"
+    },
+    {
+        "id": 139,
+        "name": "Djip-trial",
+        "code": "140"
+    },
+    {
+        "id": 17,
+        "name": "Suzish",
+        "code": "025"
+    },
+    {
+        "id": 66,
+        "name": "Suvga sakrash",
+        "code": "066"
+    },
+    {
+        "id": 77,
+        "name": "Bodibilding fitnes va mas-restling ",
+        "code": "077"
+    },
+    {
+        "id": 165,
+        "name": "Sport raqsi",
+        "code": "200"
+    },
+    {
+        "id": 166,
+        "name": "Konkida yugurish",
+        "code": "157"
+    },
+    {
+        "id": 46,
+        "name": "Shotokan karate-do",
+        "code": "046"
+    },
+    {
+        "id": 160,
+        "name": "FIBA 3X3 basketbol",
+        "code": "151"
+    },
+    {
+        "id": 115,
+        "name": "Para o‘q otish",
+        "code": "115"
+    },
+    {
+        "id": 112,
+        "name": "Zamonaviy to‘rt kurash",
+        "code": "112"
+    },
+    {
+        "id": 133,
+        "name": "Para kamondan o‘q otish",
+        "code": "133"
+    },
+    {
+        "id": 127,
+        "name": "Golbol",
+        "code": "127"
+    },
+    {
+        "id": 18,
+        "name": "Shashka ",
+        "code": "018"
+    },
+    {
+        "id": 82,
+        "name": "Mini futbol ",
+        "code": "082"
+    },
+    {
+        "id": 89,
+        "name": "Sport raqsi (Breyk dans)",
+        "code": "089"
+    },
+    {
+        "id": 81,
+        "name": "Futbol ",
+        "code": "081"
+    },
+    {
+        "id": 54,
+        "name": "Usmonov kombat sistems",
+        "code": "054"
+    },
+    {
+        "id": 2,
+        "name": "Og‘ir atletika",
+        "code": "002"
+    },
+    {
+        "id": 41,
+        "name": "Muaytay ",
+        "code": "041"
+    },
+    {
+        "id": 7,
+        "name": "Baydarka va kanoe",
+        "code": "007"
+    },
+    {
+        "id": 114,
+        "name": "Para dzyudo",
+        "code": "114"
+    },
+    {
+        "id": 168,
+        "name": "Chang‘i - alpinizmi",
+        "code": "162"
+    },
+    {
+        "id": 1,
+        "name": "Boks",
+        "code": "001"
+    },
+    {
+        "id": 161,
+        "name": "Para shashka",
+        "code": "153"
+    }
+]
