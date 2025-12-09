@@ -633,6 +633,8 @@
   .select-wrap{position:relative}
   .select{appearance:none;width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;color:var(--text);padding:10px 34px 10px 12px;outline:none;transition:border-color .2s ease,box-shadow .2s ease,background .2s ease}
   .select:focus{border-color:rgba(31,81,255,.6);box-shadow:0 0 0 3px var(--ring);background:rgba(255,255,255,.09)}
+  .select option{background:#1a1f2e;color:#e8ecf4}
+  .select option:checked{background:linear-gradient(#1f51ff, #1f51ff);color:#fff}
   .select-caret{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none;color:#bfe9ff;opacity:.95}
   .actions{display:flex;gap:10px;margin-top:12px}
   .button{flex:1;padding:12px 14px;border-radius:12px;border:1px solid transparent;font-weight:800;letter-spacing:.2px;cursor:pointer;transition:transform .12s ease,box-shadow .12s ease,background .2s ease}
