@@ -70,7 +70,7 @@
     </div>
 
     <div class="info-btn" @click="togglePopup">
-      <img src="@/assets/information.png" alt="information" loading="lazy" />
+      <span>sportchilar</span>
     </div>
 
     <div class="mobile">
@@ -88,8 +88,39 @@
             <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </button>
-        <h2>Paralimpiakada ishtirokchilari!</h2>
-        <div class="popup-list-wrapper">
+        
+        <!-- Categories View -->
+        <div v-if="popupView === 'categories'">
+          <h2>Sportchilar</h2>
+          <div class="popup-categories">
+            <button class="category-btn" @click="selectCategory('olimpia')">
+              <span>Olimpia sportchilar</span>
+            </button>
+            <button class="category-btn" @click="selectCategory('paralimpiakada')">
+              <span>Paralimpiakada sportchilar</span>
+            </button>
+            <button class="category-btn" @click="selectCategory('trenerlar')">
+              <span>Trenerlar</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- List View -->
+        <div v-else class="popup-list-container">
+          <div class="popup-header">
+            <button class="popup-back" @click="goBackToCategories" aria-label="Назад">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+            <h2>
+              <span v-if="selectedCategory === 'olimpia'">Olimpia sportchilar</span>
+              <span v-else-if="selectedCategory === 'paralimpiakada'">Paralimpiakada ishtirokchilari!</span>
+              <span v-else-if="selectedCategory === 'trenerlar'">Trenerlar</span>
+            </h2>
+          </div>
+          <template v-if="selectedCategory === 'paralimpiakada'">
+          <div class="popup-list-wrapper">
           <div class="popup-athlete-item">
             <div class="athlete-image-wrapper">
               <img src="@/assets/img/asila.jpg" alt="asila" loading="lazy" />
@@ -1409,7 +1440,14 @@
               </div>
             </div>
           </div>
-
+          </div>
+          </template>
+          <div v-else-if="selectedCategory === 'olimpia'" class="popup-empty">
+            <p>Ma'lumotlar hozircha mavjud emas</p>
+          </div>
+          <div v-else-if="selectedCategory === 'trenerlar'" class="popup-empty">
+            <p>Ma'lumotlar hozircha mavjud emas</p>
+          </div>
         </div>
       </div>
     </div>
@@ -1461,6 +1499,8 @@ const resultCount = ref(0)
 const lastFiltered = ref<LocationItem[]>([])
 const loading = ref(true)
 const isPopupOpen = ref(false)
+const popupView = ref<'categories' | 'list'>('categories')
+const selectedCategory = ref<'olimpia' | 'paralimpiakada' | 'trenerlar' | null>(null)
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2FydWJvbGEiLCJhIjoiY21mNWJnd3Q2MDNsazJqcGZqdjZuaHg5cCJ9.yaO3u4qlhzDV9TDytXgb9A'
 
@@ -1943,6 +1983,18 @@ function togglePopup() {
 
 function closePopup() {
   isPopupOpen.value = false
+  popupView.value = 'categories'
+  selectedCategory.value = null
+}
+
+function selectCategory(category: 'olimpia' | 'paralimpiakada' | 'trenerlar') {
+  selectedCategory.value = category
+  popupView.value = 'list'
+}
+
+function goBackToCategories() {
+  popupView.value = 'categories'
+  selectedCategory.value = null
 }
 
 function handleEscape(e: KeyboardEvent) {
@@ -1966,8 +2018,8 @@ onBeforeUnmount(() => {
   right: 12px;
   z-index: 10;
   cursor: pointer;
-  width: 48px;
-  height: 48px;
+  padding: 12px 20px;
+  min-width: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1990,11 +2042,12 @@ onBeforeUnmount(() => {
   transform: translateY(0);
 }
 
-.info-btn img {
-  width: 28px;
-  height: 28px;
-  object-fit: contain;
-  filter: brightness(1.1);
+.info-btn span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .sportmap {
