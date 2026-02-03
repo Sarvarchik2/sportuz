@@ -123,9 +123,13 @@
                 :name="athlete.name" :description="athlete.description" :achievements="athlete.achievements" />
             </div>
           </template>
-          <div v-else-if="selectedCategory === 'olimpia'" class="popup-empty">
-            <p>Ma'lumotlar hozircha mavjud emas</p>
-          </div>
+          <template v-else-if="selectedCategory === 'olimpia'">
+            <div class="popup-list-wrapper">
+              <AthleteCard v-for="(athlete, index) in olimpiaAthletes" :key="index" :image="athlete.image"
+                :medal-label="athlete.medalLabel" :sport-type="athlete.sportType" :title="athlete.title"
+                :name="athlete.name" :description="athlete.description" :achievements="athlete.achievements" />
+            </div>
+          </template>
           <div v-else-if="selectedCategory === 'trenerlar'" class="popup-empty">
             <p>Ma'lumotlar hozircha mavjud emas</p>
           </div>
@@ -185,6 +189,7 @@ const DATA_ORG_SPORTS_PAID = '/data/sport_muassasalari_payed_for_filter.json'
 const DATA_ORG_SPORTS_UNPAID = '/data/sport_muassasalari_unpayed_for_filter.json'
 const DATA_SPORT_TYPES = '/data/sport_turi.json'
 const DATA_ATHLETES = '/data/athletes.json'
+const DATA_OLYMPIANS = '/data/olympians.json'
 
 // Map constants
 const SRC_ID = 'points-src'
@@ -206,6 +211,7 @@ const selectedCategory = ref<'olimpia' | 'paralimpiakada' | 'trenerlar' | null>(
 const facSource = ref<LocationItem[]>([])
 const orgSource = ref<LocationItem[]>([])
 const paralimpiakadaAthletes = ref<Athlete[]>([])
+const olimpiaAthletes = ref<Athlete[]>([])
 const sportTypeIdToName = ref<Map<string, string>>(new Map())
 const orgIdToSportNames = ref<Map<number, Set<string>>>(new Map())
 
@@ -318,10 +324,11 @@ async function loadData() {
   try {
     const responses = await Promise.all([
       fetch(DATA_FAC), fetch(DATA_ORG), fetch(DATA_ORG_SPORTS_PAID),
-      fetch(DATA_ORG_SPORTS_UNPAID), fetch(DATA_SPORT_TYPES), fetch(DATA_ATHLETES)
+      fetch(DATA_ORG_SPORTS_UNPAID), fetch(DATA_SPORT_TYPES),
+      fetch(DATA_ATHLETES), fetch(DATA_OLYMPIANS)
     ])
 
-    const [facJson, orgJson, sportsPaidJson, sportsUnpaidJson, sportTypesJson, athletesJson] =
+    const [facJson, orgJson, sportsPaidJson, sportsUnpaidJson, sportTypesJson, athletesJson, olympiansJson] =
       await Promise.all(responses.map(r => r.json()))
 
     buildOrgSportsMaps(sportsPaidJson, sportsUnpaidJson, sportTypesJson)
@@ -329,6 +336,7 @@ async function loadData() {
     const orgRaw = Array.isArray(orgJson) ? orgJson : (orgJson.osatsiatsiya || [])
     orgSource.value = orgRaw.map(rowToOrg).filter(Boolean) as LocationItem[]
     paralimpiakadaAthletes.value = athletesJson
+    olimpiaAthletes.value = olympiansJson
 
   } catch (e) {
     console.error('Failed to load data', e)
