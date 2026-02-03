@@ -90,10 +90,10 @@
           <h2>Sportchilar</h2>
           <div class="popup-categories">
             <button class="category-btn" @click="selectCategory('olimpia')">
-              <span>Olimpia sportchilar</span>
+              <span>Olimpiya sportchilar</span>
             </button>
             <button class="category-btn" @click="selectCategory('paralimpiakada')">
-              <span>Paralimpiakada sportchilar</span>
+              <span>Paralimpiya sportchilar</span>
             </button>
             <button class="category-btn" @click="selectCategory('trenerlar')">
               <span>Trenerlar</span>
@@ -111,8 +111,8 @@
               </svg>
             </button>
             <h2>
-              <span v-if="selectedCategory === 'olimpia'">Olimpia sportchilar</span>
-              <span v-else-if="selectedCategory === 'paralimpiakada'">Paralimpiakada ishtirokchilari!</span>
+              <span v-if="selectedCategory === 'olimpia'">Olimpiya sportchilar</span>
+              <span v-else-if="selectedCategory === 'paralimpiakada'">Paralimpiya sportchilar</span>
               <span v-else-if="selectedCategory === 'trenerlar'">Trenerlar</span>
             </h2>
           </div>
