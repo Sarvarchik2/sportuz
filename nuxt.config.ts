@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   css: [
     'mapbox-gl/dist/mapbox-gl.css'
   ],
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      mapboxAccessToken: process.env.NUXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+    }
+  }
 })
