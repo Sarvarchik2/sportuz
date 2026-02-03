@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      mapboxAccessToken: process.env.NUXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+      // Nuxt автоматически подставит сюда значение из NUXT_PUBLIC_MAPBOX_ACCESS_TOKEN
+      mapboxAccessToken: ''
     }
   }
 })

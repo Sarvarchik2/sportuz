@@ -508,7 +508,7 @@ onMounted(async () => {
     })
     map.value!.addControl(new mapboxgl.AttributionControl({
       compact: false,
-      customAttribution: ['Powered by <a href="https://link-digital.uz/" target="_blank">LINK-DIGITAL.UZ</a>']
+      customAttribution: ['Powered by <a href="https://linkdigital.uz/" target="_blank">linkdigital.uz</a>']
     }), 'bottom-right')
 
     map.value!.addSource(SRC_ID, {
