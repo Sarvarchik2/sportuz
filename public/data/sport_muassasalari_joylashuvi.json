@@ -20,25 +20,6 @@
       }
     },
     {
-      "id": 1751,
-      "director": " 1",
-      "contactinfo": "1",
-      "organizationname": "305568278 - \"JISMONIY TARBIYA VA SPORT -SOG'LOMLASHTIRISH ISHLARI BOSHQARMASI\" unitar korxonasi",
-      "mfyid": null,
-      "address": "Mirobod",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 3,
-        "name": "Mirobod"
-      }
-    },
-    {
       "id": 1519,
       "director": "MIRZAYEV FARRUX ZIYOITDINOVICH",
       "contactinfo": "+998902561991",
@@ -55,63 +36,6 @@
       "oblast": {
         "id": 33,
         "name": "Andijon sh."
-      }
-    },
-    {
-      "id": 12544,
-      "director": "Zafarjon Mamadaliyev Safaraliyevich",
-      "contactinfo": "+998902882288",
-      "organizationname": "311485063 - \"QARSHI SHAHAR KURASH MAHORAT MAKTABI\" DM",
-      "mfyid": null,
-      "address": "Darvozatutak MFY,  Islom Karimov ko'chasi , 308-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 7,
-        "name": "Qashqadaryo viloyati"
-      },
-      "oblast": {
-        "id": 105,
-        "name": "Qarshi sh"
-      }
-    },
-    {
-      "id": 1937,
-      "director": "MAMATKULOVA TATYANA ABDURAXMANOVNA",
-      "contactinfo": "99999998",
-      "organizationname": "311587767 - \"Respublika ixtisoslashtirilgan kompleks bolalar va O‘smirlar sport maktabi\" NTM",
-      "mfyid": null,
-      "address": "Dilbuloq MFY,  Shota Rustaveli ko`chasi ,  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 11,
-        "name": "Yakkasaroy"
-      }
-    },
-    {
-      "id": 9006,
-      "director": "MASHARIPOVELYORSHOMUROD O‘G‘LI",
-      "contactinfo": "977107931",
-      "organizationname": "302411887 - \"SPORT KURASHLARI BO`YICHA IXTISOSLASHTIRILGAN OLIMPIYA ZAXIRALARI MAKTABI\" DM",
-      "mfyid": null,
-      "address": "MUSTAQILLIK SHOH KO`CHASI, \"DINAMO\" STADIONI",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 2,
-        "name": "Mirzo Ulug‘bek"
       }
     },
     {
@@ -150,44 +74,6 @@
       "oblast": {
         "id": 145,
         "name": "Angor"
-      }
-    },
-    {
-      "id": 1069,
-      "director": "Юсупов Бекжон Уктамалиевич",
-      "contactinfo": "+998 97-724-09-72",
-      "organizationname": "207322206 - Angren shahar 2-sonli sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati Angren shahar G‘ofo‘r G‘o‘lom MFY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 28,
-        "name": "Angren sh"
-      }
-    },
-    {
-      "id": 1048,
-      "director": "Mavlyanov Furqat Abduxalikovich ",
-      "contactinfo": "+998 94 109 65 65",
-      "organizationname": "207238049 - Angren shahar sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati Angren shahri Taraqqiyot MFY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 28,
-        "name": "Angren sh"
       }
     },
     {
@@ -264,44 +150,6 @@
       "oblast": {
         "id": 65,
         "name": "Baxmal"
-      }
-    },
-    {
-      "id": 1049,
-      "director": "Мамуров Ориф Ортикович",
-      "contactinfo": "+998 90 065-03-55",
-      "organizationname": "207238404 - Bekobod shahar sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati Bekobod shaxar",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 30,
-        "name": "Bekobod sh"
-      }
-    },
-    {
-      "id": 1055,
-      "director": "Камолхонов Азизхон Мухитдинович",
-      "contactinfo": "+998 94 910-19-86",
-      "organizationname": "303853510 - Bekobod tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Bekobod tumani, Zafar shaharchasi, Bo'ston mahallasi, I.Buxoriy ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 13,
-        "name": "Bekobod"
       }
     },
     {
@@ -419,63 +267,6 @@
       }
     },
     {
-      "id": 1493,
-      "director": "URAZBAYEV AKBAR RUSTAMOVICH",
-      "contactinfo": "+998935571968",
-      "organizationname": "309642040 - Boks bo`yicha Bahodir Jalolov sport mahorati maktabi",
-      "mfyid": null,
-      "address": "Yunusobod tuman, Sobirobod MFY, 10-mavzesi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 10,
-        "name": "Yunusobod"
-      }
-    },
-    {
-      "id": 1417,
-      "director": "KAMBAROV MIRJALOL AXMATKULOVICH",
-      "contactinfo": "+998933205070",
-      "organizationname": "309683172 - Boyovut tumani 2-son sport maktabi",
-      "mfyid": 18166,
-      "address": "Sirdaryo viloyati, Boyovut tumani, Madaniyat MFY, Donishmad ko'chasi, 3-uy",
-      "latitude": 40.28833,
-      "longitude": 69.02049,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 160,
-        "name": "Boyovut"
-      }
-    },
-    {
-      "id": 598,
-      "director": "NORMATOV SARVAR YUSUBALIYEVICH",
-      "contactinfo": "+998673901526",
-      "organizationname": "207132481 - Boyovut tumani sport maktabi",
-      "mfyid": 18182,
-      "address": "Sirdaryo viloyati, Boyovut tumani, Uchturg'on MFY, Qirg‘oq bo'yi ko'chasi, 26-uy",
-      "latitude": 40.283721,
-      "longitude": 69.00321,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 160,
-        "name": "Boyovut"
-      }
-    },
-    {
       "id": 706,
       "director": "Рахматов Саидмурод Абдуллаевич ",
       "contactinfo": "+998 76 335 47 59",
@@ -511,25 +302,6 @@
       "oblast": {
         "id": 16,
         "name": "Buka"
-      }
-    },
-    {
-      "id": 1057,
-      "director": "Тошпўлатов Ойбек Хидир ўғли ",
-      "contactinfo": "+998 93 466-66-56",
-      "organizationname": "207161028 - Bo‘stonliq tumani sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Bo'stonliq tumani, G'azalkent shahri, Daxana mahallasi, G'azalkent ko'chasi, 1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 12,
-        "name": "Bo‘stonliq"
       }
     },
     {
@@ -777,63 +549,6 @@
       "oblast": {
         "id": 87,
         "name": "Chimboy"
-      }
-    },
-    {
-      "id": 1064,
-      "director": "Музаффаров Сардор Миркомил ўғли",
-      "contactinfo": "+998976877767",
-      "organizationname": "207238095 - Chinoz tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Chinoz tumani, Chinoz shahri, Ziyokor ko'chasi, 4-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 24,
-        "name": "Chinoz"
-      }
-    },
-    {
-      "id": 1043,
-      "director": "Rovshan",
-      "contactinfo": "1",
-      "organizationname": "200946067 - Chirchiq olimpiya  va paralimpiya sport turlariga tayyorlash markazi",
-      "mfyid": null,
-      "address": "Chirchiq shaxri,50 yil shox ko‘chasi, 14-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 31,
-        "name": "Chirchiq shahar"
-      }
-    },
-    {
-      "id": 1053,
-      "director": "Султанов Сухроб Усманбаевич",
-      "contactinfo": "+998 99 400 23 23",
-      "organizationname": "207114274 - Chirchiq shahar  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Chirchiq sh., O'zbekiston ko'chasi, 6-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 31,
-        "name": "Chirchiq shahar"
       }
     },
     {
@@ -1160,25 +875,6 @@
       }
     },
     {
-      "id": 12576,
-      "director": "KASIMOV JAVLONBEK UMIDOVICH",
-      "contactinfo": "998941339966",
-      "organizationname": "311300593 - Farg’ona viloyati Gimnastika sport turlariga tayyorlash markazi",
-      "mfyid": null,
-      "address": "Alisher Navoiy MFY, Sohibqiron Temur ko'chasi, 26-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 13,
-        "name": "Farg'ona viloyati"
-      },
-      "oblast": {
-        "id": 188,
-        "name": "Farg'ona shahar"
-      }
-    },
-    {
       "id": 1039,
       "director": "Джўрақулов Номозбек Абдурахмонович",
       "contactinfo": "+998 94 579 68 22",
@@ -1252,63 +948,6 @@
       "oblast": {
         "id": 66,
         "name": "G'allorol"
-      }
-    },
-    {
-      "id": 1431,
-      "director": "CHUSOVITINA OKSANA ALEKSANDROVNA",
-      "contactinfo": "+998996019935",
-      "organizationname": "309643031 - Gimnastika bo`yicha Oksana Chusovitina sport mahorati maktabi",
-      "mfyid": 2807,
-      "address": "Mirobod tumani, Banokatiy MFY.",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 3,
-        "name": "Mirobod"
-      }
-    },
-    {
-      "id": 945,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "200936934 - Gimnastika bo‘yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "U.NOSIR KO`CHASI, 53B-UY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 11,
-        "name": "Yakkasaroy"
-      }
-    },
-    {
-      "id": 946,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "300327873 - Gimnastika bo‘yicha ixtisoslashtirilgan olimpiya zaxiralari  SM",
-      "mfyid": null,
-      "address": "Toshkent shahar, Yunusobod tumani, Korxoji-ota ko‘chasi, 2a uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 10,
-        "name": "Yunusobod"
       }
     },
     {
@@ -1711,25 +1350,6 @@
       }
     },
     {
-      "id": 1688,
-      "director": "YULDASHEV SHUXRAT MUMINOVICH",
-      "contactinfo": "99.240.2101",
-      "organizationname": "207360183 - JIZZAX VILOYATI FUTBOL MAKTAB",
-      "mfyid": null,
-      "address": "Bobur MFY, Islom Karimov ko`chasi, 4-uy xxx ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 5,
-        "name": "Jizzax viloyati"
-      },
-      "oblast": {
-        "id": 75,
-        "name": "Jizzax shahri"
-      }
-    },
-    {
       "id": 709,
       "director": "S. Safarov",
       "contactinfo": "+998 55 451 97 11",
@@ -1776,25 +1396,6 @@
       "address": "Jizzax shahar Zargarlik MFY S.Xamraqulov ko‘chasi",
       "latitude": 40.1330500309,
       "longitude": 67.8306032939,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 5,
-        "name": "Jizzax viloyati"
-      },
-      "oblast": {
-        "id": 75,
-        "name": "Jizzax shahri"
-      }
-    },
-    {
-      "id": 12574,
-      "director": "Komilov Husan Yusupovich",
-      "contactinfo": "998915672018",
-      "organizationname": "311496374 - Jizzax viloyati Kurash mahorat maktabi",
-      "mfyid": null,
-      "address": "Zargarlik MFY,  Toshtepa ko'chasi , 58-uy",
-      "latitude": null,
-      "longitude": null,
       "organizationtypeid": 6,
       "region": {
         "id": 5,
@@ -2072,25 +1673,6 @@
       }
     },
     {
-      "id": 1413,
-      "director": "XAYBAROV ABDIMALIK NORMUROTOVICH",
-      "contactinfo": "+998 91 961 30 70",
-      "organizationname": "309558983 - Koson tumani 2-son sport maktab",
-      "mfyid": 6098,
-      "address": "Koson tumani, Quyi Obron ko'chasi, 14-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 7,
-        "name": "Qashqadaryo viloyati"
-      },
-      "oblast": {
-        "id": 96,
-        "name": "Koson"
-      }
-    },
-    {
       "id": 578,
       "director": "Abdurahmonov Jo‘rabek Muhaydinovich",
       "contactinfo": "+998 99 640 31 07",
@@ -2167,44 +1749,6 @@
       }
     },
     {
-      "id": 1488,
-      "director": "MAXKAMOV MAXMUD MAXKAMOVICH",
-      "contactinfo": "+998 97 783 60 69",
-      "organizationname": "309125446 - Milliy gvardiya Toshkent shahar chavandozlar maktabi",
-      "mfyid": null,
-      "address": "Chilonzor tuman, Bunyodkor shox kochasi 156-uy  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 8,
-        "name": "Chilonzor"
-      }
-    },
-    {
-      "id": 1478,
-      "director": "IBRAGIMOV NODIRBEK ANVARBEKOVICH",
-      "contactinfo": "712693014",
-      "organizationname": "200540763 - Milliy gvardiya ot sporti bo'yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "Mirzo Ulug'bek tumani,  Oltintepa 1-tor ko'chasi, 37A-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 2,
-        "name": "Mirzo Ulug‘bek"
-      }
-    },
-    {
       "id": 579,
       "director": "Abduqodirov Mirjohongir Mirsharifxonovic",
       "contactinfo": "+998 94 156 22 27",
@@ -2259,25 +1803,6 @@
       "oblast": {
         "id": 73,
         "name": "Mirzachul"
-      }
-    },
-    {
-      "id": 603,
-      "director": "KASIMOV ELMUROD TAXIRJANOVICH",
-      "contactinfo": "+998673101396",
-      "organizationname": "203304261 - Mirzaobod tumani  sport maktabi",
-      "mfyid": 18223,
-      "address": "Mirzaobod tumani Navro‘z MFY Mustaqillik ko‘chasi 2-uy",
-      "latitude": 40.494866,
-      "longitude": 68.699692,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 162,
-        "name": "Mirzaobod"
       }
     },
     {
@@ -2661,44 +2186,6 @@
       }
     },
     {
-      "id": 12577,
-      "director": "JUMANIYAZOV ULUGBEK ISKANDEROVICH",
-      "contactinfo": "998975081800",
-      "organizationname": "311257401 - Nukus shahar Gimnastika sport turlariga tayyorlash markazi",
-      "mfyid": 17551,
-      "address": "Jeke terek MFY, Abdiraman Utepov ko'chasi, 54/1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 90,
-        "name": "Nukus shahar"
-      }
-    },
-    {
-      "id": 12573,
-      "director": "Jusibbekov Sirek",
-      "contactinfo": "998913948050",
-      "organizationname": "311482384 - Nukus shahar kurash mahorat maktabi",
-      "mfyid": null,
-      "address": "Gʻarezsizlik MFY,  akademik Sabır Kamalov ko'chasi , 1/1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 90,
-        "name": "Nukus shahar"
-      }
-    },
-    {
       "id": 689,
       "director": "Jumaniyazov Baxadir Jalǵasbaevich",
       "contactinfo": "55 102-82-46",
@@ -2715,25 +2202,6 @@
       "oblast": {
         "id": 83,
         "name": "Nukus t"
-      }
-    },
-    {
-      "id": 1050,
-      "director": "Рахматиллаев Садулла Абсаттарович",
-      "contactinfo": "+998 91 910 20 86",
-      "organizationname": "305416957 - Nurafshon shahar sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Nurafshon shahri, Toshkent yo'li ko'chasi, O.Ashirov nomli o'yingoh hududi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
       }
     },
     {
@@ -2813,25 +2281,6 @@
       }
     },
     {
-      "id": 983,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "305710781 - O'zbekiston futbol assotsiyatsiyasi tasarrufidagi Qashqadaryo viloyati futbol akademiyasi",
-      "mfyid": null,
-      "address": "Qarshi sh., Bog'ishamol mahallasi, Chorbog' ko'chasi, 2-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 7,
-        "name": "Qashqadaryo viloyati"
-      },
-      "oblast": {
-        "id": 105,
-        "name": "Qarshi sh"
-      }
-    },
-    {
       "id": 1079,
       "director": "Кенжаев Акмалжон Матниёзович ",
       "contactinfo": "998553519481    ",
@@ -2867,101 +2316,6 @@
       "oblast": {
         "id": 154,
         "name": "Termiz"
-      }
-    },
-    {
-      "id": 12575,
-      "director": "ORAZIMBETOV TOLMAS JANAYTIMBETOVICH",
-      "contactinfo": "998998347231",
-      "organizationname": "311508095 - Og'ir atletika markazi",
-      "mfyid": null,
-      "address": "Navroʻz MFY,  Talabalar ko'chasi , 10-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 31,
-        "name": "Chirchiq shahar"
-      }
-    },
-    {
-      "id": 1052,
-      "director": "Мунаваров Дилшодхўжа Мухитдин ўғли",
-      "contactinfo": "+998 93 600-00-73",
-      "organizationname": "207267360 - Ohangaron shahar  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Ohangaron sh., 2/2-daha, Ohunboboyev ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 29,
-        "name": "Axangaron sh"
-      }
-    },
-    {
-      "id": 1060,
-      "director": "Абдукаримов Даврон Телебаевич",
-      "contactinfo": "+998 94-696-42-42",
-      "organizationname": "207238088 - Ohangaron tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Ohangaron tumani, Do'stlik QFY, O'zbekiston mahallasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 15,
-        "name": "Ohangaron tumani"
-      }
-    },
-    {
-      "id": 673,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "207277515 - Olimpiya va milliy sport turlari buyicha Nukus oliy sport maxorati maktabi",
-      "mfyid": null,
-      "address": "Nukus shahar, M.Jumanazarov 172-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 90,
-        "name": "Nukus shahar"
-      }
-    },
-    {
-      "id": 1051,
-      "director": "Хасанов Озод Хамидуллаевич",
-      "contactinfo": "+998 93 110-22-22",
-      "organizationname": "303876839 - Olmaliq shahar  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Olmaliq sh., Ulug'bek ko'chasi, 59-ts 1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 27,
-        "name": "Olmaliq shahar"
       }
     },
     {
@@ -3079,63 +2433,6 @@
       }
     },
     {
-      "id": 1061,
-      "director": "Шерназов Санжар Фарход ўғли ",
-      "contactinfo": "+998 99 934-54-44",
-      "organizationname": "207051931 - Oqqo‘rg‘on tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Oqqo'rg'on tumani, Oqqo'rg'on shahri, Birlik mahallasi, Mustafo ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 14,
-        "name": "Oqqurg'on"
-      }
-    },
-    {
-      "id": 1065,
-      "director": "Акбаров Мурод Дилшодович",
-      "contactinfo": "+998 97 119-73-00",
-      "organizationname": "207110858 - O‘rta chirchiq tumani sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, O'rtachirchiq tumani, Navoiy QFY, Xalqobod mahallasi, A.Yassaviy ko'chasi, 2-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 23,
-        "name": "O‘rtachirchiq"
-      }
-    },
-    {
-      "id": 1940,
-      "director": "XOLXODJAYEV OYBEK TO‘LKINOVICH",
-      "contactinfo": "+998983686002",
-      "organizationname": "311081718 - O‘zbekiston karateni rivojlantirish markazi.",
-      "mfyid": null,
-      "address": "Jurjoniy MFY, Yusuf Sakkokiy ko'chasi, 4-b-uy  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 6,
-        "name": "Uchtepa"
-      }
-    },
-    {
       "id": 665,
       "director": "Нишонов Мадаминжон Бахромович",
       "contactinfo": "+998 33 103 08 12",
@@ -3152,25 +2449,6 @@
       "oblast": {
         "id": 180,
         "name": "O`zbekiston"
-      }
-    },
-    {
-      "id": 1062,
-      "director": "Мирабдуллаев Мирвохид Мирмахмудович",
-      "contactinfo": "+998 99 818-26-80",
-      "organizationname": "207239237 - Parkent tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Parkent tumani, Parkent shahri, Ichkiqo'rg'on ko'chasi, 5-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 20,
-        "name": "Parkent"
       }
     },
     {
@@ -3345,25 +2623,6 @@
       }
     },
     {
-      "id": 1063,
-      "director": "Рашидов Боходир Абдурасулович",
-      "contactinfo": "+998 99-001-71-61",
-      "organizationname": "203275988 - Piskent tumani sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Pskent tumani, Pskent shahri, Oybek mahallasi, A.Temur ko'chasi, 138-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 21,
-        "name": "Piskent"
-      }
-    },
-    {
       "id": 590,
       "director": "Tursunov Eldor Elmurodovich ",
       "contactinfo": "+998 94 446 44 41",
@@ -3478,25 +2737,6 @@
       }
     },
     {
-      "id": 976,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "202445974 - Qarshi shahar sport turlari bo‘yicha davlat ixtisoslashtirilgan maktab-internati",
-      "mfyid": null,
-      "address": "Qarshi sh., Ravoq mahallasi, Islom Karimov ko'chasi, 13-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 7,
-        "name": "Qashqadaryo viloyati"
-      },
-      "oblast": {
-        "id": 105,
-        "name": "Qarshi sh"
-      }
-    },
-    {
       "id": 985,
       "director": "Jamalov Jamshid Jamolovich",
       "contactinfo": " +998 99 334 68 60",
@@ -3513,44 +2753,6 @@
       "oblast": {
         "id": 95,
         "name": "Qarshi tumani"
-      }
-    },
-    {
-      "id": 1423,
-      "director": "Azizov Suxrob Fayziyevich",
-      "contactinfo": " 755225524, 904416622",
-      "organizationname": "206944421 - Qashqadaryo viloyati futbol maktabi",
-      "mfyid": null,
-      "address": " Shahrisabz shahar., Ipak yo'li ko'chasi,122-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 7,
-        "name": "Qashqadaryo viloyati"
-      },
-      "oblast": {
-        "id": 103,
-        "name": "Shaxrisabz"
-      }
-    },
-    {
-      "id": 1068,
-      "director": "Бабакаланов Фарход Сабирович",
-      "contactinfo": "+998 99-630-36-04",
-      "organizationname": "207238285 - Qibray tumani sport maktabi",
-      "mfyid": null,
-      "address": "X.Olimjon 166 uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 18,
-        "name": "Qibray"
       }
     },
     {
@@ -3646,44 +2848,6 @@
       "oblast": {
         "id": 58,
         "name": "Qorako`l"
-      }
-    },
-    {
-      "id": 1704,
-      "director": "AKNAZAROV AIBEK BAXTIYAROVICH",
-      "contactinfo": "+998912552002",
-      "organizationname": "207360112 - Qoraqalpog'iston resbuplikasi Futbol maktabi",
-      "mfyid": null,
-      "address": "Gene qala MFY, Edige ko`chasi, 17a-uy. xxx ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 90,
-        "name": "Nukus shahar"
-      }
-    },
-    {
-      "id": 678,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "207283840 - Qoraqalpoqiston Respublikasi futbol akademiyasi",
-      "mfyid": null,
-      "address": "Qoraqalpog'iston Respublikasi, Nukus sh., Xurliman qiz baqsi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 90,
-        "name": "Nukus shahar"
       }
     },
     {
@@ -3915,101 +3079,6 @@
       }
     },
     {
-      "id": 1073,
-      "director": "Джангабаев Санжар Шавкатович",
-      "contactinfo": "+998 97-743-95-90",
-      "organizationname": "207121306 - Quyi Chirchiq tumani  sport maktabi",
-      "mfyid": null,
-      "address": "\"Quyi Chirchiq tumani  Do‘stobod shaxri  Mirobod MFY  Bibixonim ko‘chasi 1-uy\"",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 19,
-        "name": "Quyi-Chirchiq"
-      }
-    },
-    {
-      "id": 1072,
-      "director": "Умаров Жасур Ўктамович",
-      "contactinfo": "+998 90-937-30-43",
-      "organizationname": "207320138 - Quyi Chirchiq tumani 2-sonli sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati Quyi Chirchiq tumani Paxtazor MFY Navro‘z ko‘chasi 2-a uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 19,
-        "name": "Quyi-Chirchiq"
-      }
-    },
-    {
-      "id": 2,
-      "director": "ABROR MAMADALIYEV AKBARJONOVICH",
-      "contactinfo": "9312345678",
-      "organizationname": "200795003 - Respublika olimpiya va paralimpiya sport turlariga tayyorlash markazi",
-      "mfyid": null,
-      "address": "FOZILTEPA KO`CHASI, 38-UY  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 8,
-        "name": "Chilonzor"
-      }
-    },
-    {
-      "id": 948,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "300875335 - Respublika olimpiya zaxiralari tennis maktabi",
-      "mfyid": null,
-      "address": "Mirzo Ulug'bek tumani, YALANG`OCH MAVZESI",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 2,
-        "name": "Mirzo Ulug‘bek"
-      }
-    },
-    {
-      "id": 944,
-      "director": "Agzamov Bilol Xilolovich",
-      "contactinfo": "+998 90 973 72 55",
-      "organizationname": "202043256 - Respublika o‘smirlar oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "FIDOIYLAR KO'CHASI, 124-UY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 3,
-        "name": "Mirobod"
-      }
-    },
-    {
       "id": 674,
       "director": "Калхоразов Даулетмурат Утепбергенович ",
       "contactinfo": "+998 61 226 05 45",
@@ -4026,25 +3095,6 @@
       "oblast": {
         "id": 90,
         "name": "Nukus shahar"
-      }
-    },
-    {
-      "id": 1495,
-      "director": "XALMATOV KOMIL TURNIYAZOVICH",
-      "contactinfo": "998977051966",
-      "organizationname": "309990321 - Respublika velosport mahorat maktab-internati",
-      "mfyid": null,
-      "address": "Olmazor tumani, Muxbir ko'chasi 12a-uy  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 4,
-        "name": "Olmazor"
       }
     },
     {
@@ -4102,44 +3152,6 @@
       "oblast": {
         "id": 60,
         "name": "Romitan"
-      }
-    },
-    {
-      "id": 1521,
-      "director": "YULDASHEV XURSHID NABIJONOVICH",
-      "contactinfo": "+998915088180",
-      "organizationname": "207360072 - SIRDARYO VILOYATI FUTBOL MAKTABI",
-      "mfyid": null,
-      "address": " Sirdaryo viloyati, Guliston sh. Namuna MFY, Guliston shoh ko`chasi, 183-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 167,
-        "name": "Guliston shahri"
-      }
-    },
-    {
-      "id": 12578,
-      "director": "ABDULLAYEV DAVLAT SALOXITDINOVICH",
-      "contactinfo": "913148110",
-      "organizationname": "311700254 - Samarqand Gimnastika sport turlariga tayyorlash markazi",
-      "mfyid": null,
-      "address": "Bogʻdod MFY,  Bog'dod ko'chasi , 39-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 10,
-        "name": "Samarqand viloyati"
-      },
-      "oblast": {
-        "id": 143,
-        "name": "Samarqand shahri"
       }
     },
     {
@@ -4428,25 +3440,6 @@
       }
     },
     {
-      "id": 607,
-      "director": "To‘xtarov Zafar Anorqulovich",
-      "contactinfo": "+998994406151",
-      "organizationname": "207139109 - Shirin shahar sport maktabi",
-      "mfyid": 18358,
-      "address": "Shirin shahar Bunyodkor MFY, Yurtsevar k 3 uy",
-      "latitude": 40.227262,
-      "longitude": 69.122474,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 168,
-        "name": "Shirin shahri"
-      }
-    },
-    {
       "id": 1412,
       "director": "ASHIRMATOV SOBIR MENGALIYEVICH",
       "contactinfo": "+998 90 523 46 46",
@@ -4618,44 +3611,6 @@
       }
     },
     {
-      "id": 942,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "201968363 - Sport o‘yinlari bo‘yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "ZULFIYAXONIM KO'CHASI",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 9,
-        "name": "Shayxontohur"
-      }
-    },
-    {
-      "id": 943,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "200936941 - Sport yakkakurashlari bo'yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "OLMAZOR MAVZESI, 151-UY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 8,
-        "name": "Chilonzor"
-      }
-    },
-    {
       "id": 1091,
       "director": "AXMEDOV XUDAYAR MAMADJANOVICH",
       "contactinfo": "1",
@@ -4748,25 +3703,6 @@
       "oblast": {
         "id": 115,
         "name": "Navoiy shahri"
-      }
-    },
-    {
-      "id": 1044,
-      "director": "Халиков Даврон Откуржонович ",
-      "contactinfo": "+998 97 430 37 71",
-      "organizationname": "207239901 - Sportning o‘yin turlari va yengil atletika bo‘yicha ixtisoslashtirilgan sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Yuqorichirchiq tumani, Surnkent QFY, Ahmad Yassaviy mahallasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
       }
     },
     {
@@ -4922,25 +3858,6 @@
       }
     },
     {
-      "id": 941,
-      "director": "1",
-      "contactinfo": "993173449",
-      "organizationname": "200898720 - Sportning qishki va murakkab-texnik turlari bo‘yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "MUXBIR KO`CHASI, 12-UY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 4,
-        "name": "Olmazor"
-      }
-    },
-    {
       "id": 1075,
       "director": "Abdurahmonov Jonibek Timurovich",
       "contactinfo": "+998934357852",
@@ -4995,25 +3912,6 @@
       "oblast": {
         "id": 75,
         "name": "Jizzax shahri"
-      }
-    },
-    {
-      "id": 1045,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "200541065 - Sportning yakka kurash turlariga ixtisoslashtirilgan SM",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Qibray tumani, Chinobod QFY, Bo'ston mahallasi, X.Olimjon ko'chasi, 166-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
       }
     },
     {
@@ -5207,25 +4105,6 @@
       }
     },
     {
-      "id": 1046,
-      "director": "Маткаримов Ботирали Шералиевич",
-      "contactinfo": "+998 97 717 09 88",
-      "organizationname": "207238071 - Suv sport turlariga ixtisoslashtirilgan sm",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Toshkent tumani, Keles shaharchasi, Bunyodkor ko'chasi, 1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
-      }
-    },
-    {
       "id": 1007,
       "director": "Raimbergenov Shuxrat Alisherovich",
       "contactinfo": "+998 95 620 56 76",
@@ -5359,25 +4238,6 @@
       }
     },
     {
-      "id": 1077,
-      "director": "Умаров Асқар Собирович",
-      "contactinfo": "+998 95 607 23 28    ",
-      "organizationname": "207145133 - Suv sport turlariga ixtisoslashtirilgan sport maktabi",
-      "mfyid": 4419,
-      "address": "Navoiy shahri Navoiy ko‘chasi 30 uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 8,
-        "name": "Navoiy viloyati"
-      },
-      "oblast": {
-        "id": 115,
-        "name": "Navoiy shahri"
-      }
-    },
-    {
       "id": 573,
       "director": "Usmanov Abdushukur Arifjanovich",
       "contactinfo": "+998 90 553 47 00",
@@ -5394,44 +4254,6 @@
       "oblast": {
         "id": 209,
         "name": "Davlatobod"
-      }
-    },
-    {
-      "id": 947,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "200540462 - Suv sporti turlari bo‘yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "Talabalar shaharchasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 4,
-        "name": "Olmazor"
-      }
-    },
-    {
-      "id": 693,
-      "director": "Urazimbetov Fazilbek Jumabekovich",
-      "contactinfo": "61 572-35-44",
-      "organizationname": "300551271 - Taxiatosh tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Sportchilar ko'chasi 1 a",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 6,
-        "name": "Qoraqalpog‘iston  Respublikasi"
-      },
-      "oblast": {
-        "id": 200,
-        "name": "Taxiatosh"
       }
     },
     {
@@ -5511,25 +4333,6 @@
       }
     },
     {
-      "id": 1047,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "205652304 - Tohkent viloyati futbol akademiyasi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Yangiyo'l tumani, Halqobod QFY, Ma'rifat mahallasi, Ma'rifat ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
-      }
-    },
-    {
       "id": 1090,
       "director": "\"Казаков Абдулазиз Абдурозикович\"",
       "contactinfo": "+998 94 484 87 77    ",
@@ -5546,82 +4349,6 @@
       "oblast": {
         "id": 111,
         "name": "Tomdi"
-      }
-    },
-    {
-      "id": 920,
-      "director": "Tadjiyev Farxod Faxritdinovich",
-      "contactinfo": "995555558",
-      "organizationname": "203387784 - Toshkent shahar futbol akademiyasi",
-      "mfyid": null,
-      "address": "Toshkent shahar Yashnobod tumani Aviasozlar 1-mavze, 82 \"A\"-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 7,
-        "name": "Yashnobod"
-      }
-    },
-    {
-      "id": 1059,
-      "director": "Мансуров Дилшод Исматович",
-      "contactinfo": "+998 99-766-57-57",
-      "organizationname": "207131530 - Toshkent tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Toshkent tumani, Keles shaharchasi, Iftixor mahallasi, M.Qoshg'ariy ko'chasi, 1-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 22,
-        "name": "Toshkent"
-      }
-    },
-    {
-      "id": 1627,
-      "director": "NASIROV ALOVUDDIN MEXRIDDINOVICH",
-      "contactinfo": "1",
-      "organizationname": "207360223 - Toshkent viloyati futbol maktabi",
-      "mfyid": null,
-      "address": "Qora – suv MFY, Hamkorlik ko`chasi, 56-uy xxx ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 25,
-        "name": "Yuqori-Chirchiq"
-      }
-    },
-    {
-      "id": 1419,
-      "director": "RAXMATOV SHUXRAT NUSRATULLOYEVICH",
-      "contactinfo": "+998 94 109 65 65",
-      "organizationname": "309852104 - Toshkent viloyati gimnastika sport turlariga ixtisoslashtirilgan sport maktabi",
-      "mfyid": null,
-      "address": "Nurafshon shahar, Toshkent yo'li ko'chasi 32-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 203,
-        "name": "Nurafshon sh."
       }
     },
     {
@@ -5736,25 +4463,6 @@
       "oblast": {
         "id": 210,
         "name": "Tuproqqal’a"
-      }
-    },
-    {
-      "id": 1489,
-      "director": "MAMADAMINOV MANSUR SAITKULOVICH",
-      "contactinfo": "+998 99 880 09 33",
-      "organizationname": "200794788 - UR MV OLIY SPORT NATIJALARINI RIVOJLANTIRISH MARKAZI",
-      "mfyid": null,
-      "address": "Qatortol Kladbishenskiy tupuk ko'cha 1",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 8,
-        "name": "Chilonzor"
       }
     },
     {
@@ -6214,44 +4922,6 @@
       }
     },
     {
-      "id": 605,
-      "director": "ALIMARDONOV OYBEK QAMBARALIYEVICH",
-      "contactinfo": "+998672360470",
-      "organizationname": "207139281 - Xovos tumani 1-son sport maktabi",
-      "mfyid": 18307,
-      "address": "Sirdaryo viloyati, Xovos tumani, Bunyodkor MFY, Samarqand ko'chasi, 2-uy",
-      "latitude": 40.227106,
-      "longitude": 68.831496,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 166,
-        "name": "Xovost"
-      }
-    },
-    {
-      "id": 608,
-      "director": "MAMASOLIYEV YORQINJON TÕYCHIYEVICH",
-      "contactinfo": "+998994722352",
-      "organizationname": "307832264 - Xovos tumani 2-sonli sport maktabi",
-      "mfyid": 10054,
-      "address": "Sirdaryo viloyati, Xovos tumani, Mustaqillikning 25 yilligi MFY, Navro‘z ko'chasi, 5-uy",
-      "latitude": 40.237229,
-      "longitude": 68.891493,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 166,
-        "name": "Xovost"
-      }
-    },
-    {
       "id": 692,
       "director": "Tursinbaev Isa Tleukabilovich",
       "contactinfo": "998615547015",
@@ -6442,25 +5112,6 @@
       }
     },
     {
-      "id": 1041,
-      "director": "Ўринбоев Аброр Эргашбоевич",
-      "contactinfo": "+998 99 570 10 30",
-      "organizationname": "207106458 - Yangiobod tumani sport maktabi",
-      "mfyid": 523,
-      "address": "Yangiobod tumani Yangiobod SHFY Bunyodkor ko‘chasi 1-uy",
-      "latitude": 39.9164232334,
-      "longitude": 68.7726161154,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 5,
-        "name": "Jizzax viloyati"
-      },
-      "oblast": {
-        "id": 64,
-        "name": "Yangiobod"
-      }
-    },
-    {
       "id": 588,
       "director": "Yodgor Aliyev Rustamjon o‘g‘li",
       "contactinfo": "+998 90 218 14 18",
@@ -6477,101 +5128,6 @@
       "oblast": {
         "id": 126,
         "name": "Yangiqo`rg`on"
-      }
-    },
-    {
-      "id": 589,
-      "director": "Yuldashev Jaxongir Rustamovich",
-      "contactinfo": "+998 94-300-44-66",
-      "organizationname": "207239023 - Yangiqo'rg'on tumani 2-sonli sport maktab",
-      "mfyid": 7509,
-      "address": "Yangiqo‘rg‘on tumani, Soy-bo‘yi MFY, Sayoxat ko‘chasi 3-uy",
-      "latitude": 41.51532,
-      "longitude": 71.70336,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 9,
-        "name": "Namangan viloyati"
-      },
-      "oblast": {
-        "id": 126,
-        "name": "Yangiqo`rg`on"
-      }
-    },
-    {
-      "id": 609,
-      "director": "O‘rinbayev Jaxongir Ergashbayevich",
-      "contactinfo": "+998673502370",
-      "organizationname": "207133987 - Yangiyer shahar sport maktabi",
-      "mfyid": 18366,
-      "address": "Yangiyer shahar Davlatobod MFY A.Navoiy ko'chasi, 10-uy",
-      "latitude": 40.26553,
-      "longitude": 68.82522,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 12,
-        "name": "Sirdaryo viloyati "
-      },
-      "oblast": {
-        "id": 169,
-        "name": "Yangiyer shahri"
-      }
-    },
-    {
-      "id": 1054,
-      "director": "Зуннунов Даврон Азамхонович",
-      "contactinfo": "+998 97 400-42-05",
-      "organizationname": "207267930 - Yangiyo‘l shahar sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati Yangiyul shahar Baxt MFY",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 32,
-        "name": "Yangiyo‘l sh"
-      }
-    },
-    {
-      "id": 1067,
-      "director": "Саидхўжаев Авзалхўжа Муродхўжаевич",
-      "contactinfo": "+998 97 744-20-99",
-      "organizationname": "207121796 - Yangiyo‘l tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Sog‘lom avlod ko‘chasi 3-uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 26,
-        "name": "Yangiyo‘l"
-      }
-    },
-    {
-      "id": 1071,
-      "director": "Джунусов Анвар Тўйлибай ўғли",
-      "contactinfo": "+998 97-753-63-94",
-      "organizationname": "207325637 - Yangiyo‘l tumani 2-sonli sport maktabi",
-      "mfyid": null,
-      "address": "Marifat ko‘chasi 69 uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 26,
-        "name": "Yangiyo‘l"
       }
     },
     {
@@ -6613,44 +5169,6 @@
       }
     },
     {
-      "id": 1094,
-      "director": "Avazov Dilshod",
-      "contactinfo": "1",
-      "organizationname": "200936926 - Yengil atletika bo`yicha Respublika oliy sport mahorati maktabi",
-      "mfyid": null,
-      "address": "I.Karimov ko`chasi, 98A-uy  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 9,
-        "name": "Shayxontohur"
-      }
-    },
-    {
-      "id": 930,
-      "director": "1",
-      "contactinfo": "1",
-      "organizationname": "203479069 - Yosh gvardiyachilar bolalar va o'smirlar sport maktabi",
-      "mfyid": null,
-      "address": "Olmazor tumani kichik xalqa yo'li Qorasaroy MFY 2-Minor ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 1,
-        "name": "Toshkent shahar"
-      },
-      "oblast": {
-        "id": 4,
-        "name": "Olmazor"
-      }
-    },
-    {
       "id": 658,
       "director": "Karimov Muzaffar Sirojidinovich",
       "contactinfo": "+998 90-536-38-53",
@@ -6670,25 +5188,6 @@
       }
     },
     {
-      "id": 1066,
-      "director": "Халикова Ольга Андреевна",
-      "contactinfo": "+998 90 901-49-03",
-      "organizationname": "301871657 - Yuqori Chirchiq tumani sport maktabi",
-      "mfyid": 19807,
-      "address": "Yuqori Chirchiq tumani Korasuv MFY Xamkorlik 36",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 25,
-        "name": "Yuqori-Chirchiq"
-      }
-    },
-    {
       "id": 1035,
       "director": "Ахмедов Ўрол Маматқулович",
       "contactinfo": "+998 90 180 19 17",
@@ -6705,44 +5204,6 @@
       "oblast": {
         "id": 72,
         "name": "Zafarobod"
-      }
-    },
-    {
-      "id": 1058,
-      "director": "Одилжонов Туропжон Эркинжон ўғли",
-      "contactinfo": "+998 91 163-14-14",
-      "organizationname": "207131769 - Zangiota tumani  sport maktabi",
-      "mfyid": null,
-      "address": "Toshkent viloyati, Zangiota tumani, Eshonguzar shaharchasi, Markaz shoh ko'chasi",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 17,
-        "name": "Zangi-ota"
-      }
-    },
-    {
-      "id": 1070,
-      "director": "Муратов Шамсиддин Жалолович",
-      "contactinfo": "+998 99-369-09-03",
-      "organizationname": "308057516 - Zangiota tumani 2-sonli sport maktabi",
-      "mfyid": null,
-      "address": "Ramadon ko‘chasi 5 uy",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 2,
-        "name": "Toshkent viloyati "
-      },
-      "oblast": {
-        "id": 17,
-        "name": "Zangi-ota"
       }
     },
     {
@@ -6781,25 +5242,6 @@
       "oblast": {
         "id": 71,
         "name": "Zarbdor"
-      }
-    },
-    {
-      "id": 1036,
-      "director": "Xamrakulov Muzaffar Muxtaraliyevich",
-      "contactinfo": "+998 91 208 00 81",
-      "organizationname": "207238246 - Zomin  tumani  sport maktabi",
-      "mfyid": 5187,
-      "address": "Zomin tuaman \"Qo‘rg‘on\" MFY Gʻ.Abdullayev ko‘chasi 3 uy",
-      "latitude": 39.9617673901,
-      "longitude": 68.3948539705,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 5,
-        "name": "Jizzax viloyati"
-      },
-      "oblast": {
-        "id": 69,
-        "name": "Zomin"
       }
     },
     {
@@ -7256,25 +5698,6 @@
       "oblast": {
         "id": 45,
         "name": "Paxtaobod"
-      }
-    },
-    {
-      "id": 1639,
-      "director": "SAYFULLAYEV SHUXRAT NASIROVICH",
-      "contactinfo": "+99890 213 99 77",
-      "organizationname": "206947385 - Самарқанд вилоят футбол мактаби",
-      "mfyid": null,
-      "address": "SATTEPO MASKANI  ",
-      "latitude": null,
-      "longitude": null,
-      "organizationtypeid": 6,
-      "region": {
-        "id": 10,
-        "name": "Samarqand viloyati"
-      },
-      "oblast": {
-        "id": 143,
-        "name": "Samarqand shahri"
       }
     },
     {

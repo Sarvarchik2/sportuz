@@ -229,11 +229,18 @@ mapboxgl.accessToken = config.public.mapboxAccessToken as string
 function uniq<T>(arr: T[]) { return Array.from(new Set(arr)) }
 function isAll(v?: string) { return v === '__ALL__' || v == null }
 
-const UZ_BBOX = { minLng: 55.0, minLat: 35.0, maxLng: 75.0, maxLat: 48.0 }
+const UZ_BBOX = { minLng: 55.9, minLat: 37.1, maxLng: 73.1, maxLat: 45.6 }
 function inUZ(lat: number, lng: number) {
-  return isFinite(lat) && isFinite(lng) &&
-    lng >= UZ_BBOX.minLng && lng <= UZ_BBOX.maxLng &&
-    lat >= UZ_BBOX.minLat && lat <= UZ_BBOX.maxLat
+  if (!isFinite(lat) || !isFinite(lng)) return false
+  if (lng < UZ_BBOX.minLng || lng > UZ_BBOX.maxLng || lat < UZ_BBOX.minLat || lat > UZ_BBOX.maxLat) return false
+
+  // Tajikistan Gap: Lng 68.3 to 70.2, below Lat 40.2
+  if (lng > 68.3 && lng < 70.2 && lat < 40.2) return false
+
+  // Kyrgyzstan NE border buffer
+  if (lng > 72.8 && lat > 41.0) return false
+
+  return true
 }
 
 const labelsFacilities: Record<Key, string> = {
@@ -256,6 +263,7 @@ function rowToFacility(r: any): LocationItem | null {
   const lng = Number(r.longitude ?? r.lng)
   if (!isFinite(lat) || !isFinite(lng) || !inUZ(lat, lng)) return null
   const oblast = r?.oblast?.name || r.oblastname || r?.region?.oblast?.name || ''
+  if (!oblast) return null
   const district = r?.region?.name || r.regionname || r?.district?.name || null
   const name = r.name ?? 'Noma’lum inshoot'
   return {
@@ -275,6 +283,7 @@ function rowToOrg(r: any): LocationItem | null {
   const lng = Number(r.longitude ?? r.lng)
   if (!isFinite(lat) || !isFinite(lng) || !inUZ(lat, lng)) return null
   const oblast = r?.region?.name || r?.oblast?.name || r.regionname || r.oblastname || ''
+  if (!oblast) return null
   const district = r?.oblast?.name || r.oblastname || r?.district?.name || null
   const id = Number(r.id)
   const sportSet = orgIdToSportNames.value.get(id)
