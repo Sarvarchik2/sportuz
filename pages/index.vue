@@ -28,15 +28,11 @@
         <div class="grid">
           <div class="filter-group" v-for="filter in activeFilterGroups" :key="filter.key">
             <label class="label">{{ filter.label }}</label>
-            <div class="select-wrap">
-              <select v-model="activeFilters[filter.key]" class="select" :disabled="loading">
-                <option value="__ALL__">Barchasi</option>
-                <option v-for="option in filter.options" :key="option" :value="option">
-                  {{ option }}
-                </option>
-              </select>
-              <span class="select-caret" aria-hidden="true">▾</span>
-            </div>
+            <CustomSelect 
+              v-model="activeFilters[filter.key]" 
+              :options="filter.options" 
+              :disabled="loading" 
+            />
           </div>
         </div>
 
@@ -735,6 +731,8 @@ onBeforeUnmount(() => {
 
 .filter-panel {
   padding: 18px 18px 16px;
+  position: relative;
+  z-index: 10;
 }
 
 .glass {
@@ -758,7 +756,7 @@ onBeforeUnmount(() => {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 10px 12px;
   margin-top: 8px;
 }
